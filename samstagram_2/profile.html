@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+        <body class= "profile">
+		<h5>Description: use of javascript to replace elements on the page from inputs at the bottom of the page</h5>
+            <div class="header">
+                SAMS-tagram
+				<a href="index.html" class="nav" id="proflink">News Feed</a>
+            </div>
+            <div class="whitebox">
+				<div class="pad">
+                <br>
+                <h3 class="toptext" id="namefixed">Name</h3>
+                <p id="prename">Andrew Carnegie</p>
+
+                <h3 id="photofixed">Photo</h3>
+                <img src="https://bit.ly/32GC6ze" id="prephoto">
+                <h3 id="biofixed">Bio</h3>
+                <p id="prebio">I'm a Scottish-American industrialist, business magnate, and philanthropist. I led the expansion of the American steel industry in the late 19th century and became one of the richest Americans in history. I also became a leading philanthropist in the United States and in the British Empire. During the last 18 years of his life, I gave away about $350 million to charities, found ations, and universities – almost 90 percent of my fortune. My 1889 article proclaiming "The Gospel of Wealth" called on the rich to use their wealth to improve society, and stimulated a wave of philanthropy.</p>
+
+                <br />
+
+                <h1>Edit Profile</h1>
+                <form id="form2">
+                    <p class="titleb">Name&nbsp;<input type="text" class="input2" id="nameinp"></p>
+                    <p class="titleb">Image URL&nbsp;<input type="text" class="input2" id="imginp"></p>
+                    <p class="titleb">Bio&nbsp;<input type="text" class="input2" id="bioinp"></p>
+                    <input type="submit" id="input3" value="Save">      
+                 </form>
+        </div>
+			</div>
+			<script 
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous">
+        </script>
+        <script src="profile.js"></script>
+    </body>
+</html>

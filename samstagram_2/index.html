@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>SAMStagram</title>
+    </head>
+
+    <body>
+		
+	    <h5>Description: heavier use of javascript to add elements from inputs in the "New Post" area, new posts can be removed from the page by clicking on the "x"</h5>
+    	<div class="header">
+    		SAMS-tagram
+			<a href="profile.html" class="nav" id="proflink">Profile</a>
+		</div>
+
+		<div class="whitebox">
+			<div class="pad">
+			<h1 class="toptext">New Post!</h1>
+	
+			<form id="form1">
+                <h3>Image URL</h3>
+				<input type="text" class="input" id="urlinput">
+				<h3>Caption</h3>
+				<input type="text" class="input" id="capinput">
+				<br/>
+				<br/>
+				<input type="submit" id="input3" value="Post">
+			</form>
+		</div>
+		</div>
+        <br />
+
+        <div id="container">
+        </div>
+
+		<script 
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous">
+        </script>
+        <script src="index.js"></script>
+    </body>
+</html>

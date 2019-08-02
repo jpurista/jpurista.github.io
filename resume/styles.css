@@ -1,0 +1,35 @@
+body {
+    font-family: arial;
+	background-color: white;
+}
+.header{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+.sumhead{
+    margin-left: 5%;
+}
+.sum{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.listhead{
+    margin-left: 5%;
+}
+.list {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.leghead{
+    margin-left: 5%;
+}
+
+.leg{
+    margin-left: 10%;
+    margin-right: 10%;
+}
