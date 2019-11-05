@@ -12,27 +12,24 @@ body {
 }
 
 #logo {
+	vertical-align: middle;
 	text-align: center;
 	font-weight: 900;
-	font-size: 10vw;
+	height: 42vh;
 }
 
 #name, #subtitle {
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 #subtitle{
-	font-size: 2.25vw;
 	font-weight: 300;
-	margin-top: 0px;
 }
 
 #pageTimer {
-	width: 45vw;
-	height: 4.75vw;
 	margin: auto;
 	font-family: 'timer';
-	font-size: 3.15vw;
 	font-weight: bold;
 	color: black;
 	background-color: white;
@@ -48,7 +45,41 @@ body {
 }
 
 
-@media only screen and (max-width: 645px){
+@media only screen and (min-width: 750px){
+	#logo {
+		margin-top: 20vh;
+		margin-bottom: 38vh;
+		font-size: 12vw;
+	}
+
+	#subtitle {
+		font-size: 4.5vw;
+	}
+
+	#pageTimer {
+		font-size: 3.15vw;
+		height: 4.75vw;
+		width: 45vw;
+	}
+
+}
+
+@media only screen and (max-width: 749px){
+	#logo {
+		margin-top: 10vh;
+		margin-bottom: 38vh;
+		font-size: 15vw;
+	}
+
+	#subtitle {
+		font-size: 5vw;
+	}
+
+	#pageTimer {
+		font-size: 4.25vw;
+		height: 6vw;
+		width: 55vw;
+	}
 
 }
 
