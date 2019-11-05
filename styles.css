@@ -12,15 +12,39 @@ body {
 	font-size: 10vw;
 }
 
-#name, #changelanguage {
+#name, #change-language {
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
-#smiley {
-	transform: rotate(45deg);
+#change-language{
+	font-size: 4.5vw;
 }
 
+#pageTimer {
+	color: black;
+	background-color: white;
+	width: 45vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	font-size: 4vw;
+	font-weight: 200;
+}
+
+#yt-logo {
+	margin: 0px;
+	width: 15vw;
+}
+
+#smiley {
+	transform: rotate(45deg);
+	font-size: 8vw;
+}
+
+@media only screen and (max-width: 645px){
+
+}
 
 /*
 #navtitle:link {
