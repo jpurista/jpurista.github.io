@@ -1,4 +1,7 @@
-var countDownDate = new Date("Nov 9, 2019 12:30:00").getTime();
+//hai acqua frizzante?
+
+
+var countDownDate = new Date("Nov 9, 2019 12:30:00 CST").getTime();
 var x = setInterval(function() {
 
   	var now = new Date().getTime();
