@@ -1,7 +1,7 @@
 //hai acqua frizzante?
 
 
-var countDownDate = new Date("Jun 04, 2020 00:00:00 CST").getTime();
+var countDownDate = new Date("Dec 01, 2019 00:00:00 CST").getTime();
 var x = setInterval(function() {
 
   	var now = new Date().getTime();
