@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Heebo', sans-serif;
-	background-color: black;
+	background-color: #232323;
 	color: white;
 	font-weight: 100;
 }
@@ -26,6 +26,19 @@ a:hover {
 	color: gray;
 }
 
+a {
+	cursor: pointer;
+}
+
+#headdrop {
+	color: white;
+}
+
+#dropcont{
+	color: #999999;
+	background-color: none; 
+}
+
 #logo {
 	vertical-align: middle;
 	text-align: center;
@@ -33,13 +46,28 @@ a:hover {
 	height: 42vh;
 }
 
-#name, #subtitle {
+#logo2 {
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 900;
+}
+
+
+#name, #navbar {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-#subtitle{
+#navbar {
 	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navbar2{
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #pageTimer {
@@ -64,36 +92,72 @@ a:hover {
 	#logo {
 		margin-top: 20vh;
 		margin-bottom: 38vh;
-		font-size: 12vw;
+		font-size: 15vw;
 	}
 
-	#subtitle {
-		font-size: 4.5vw;
+	#navbar {
+		font-size: 6vw;
 	}
 
-	#pageTimer {
-		font-size: 3.15vw;
-		height: 4.75vw;
-		width: 45vw;
+	#logo2 {
+		font-size: 6vw;
 	}
+
+	#navbar2 {
+		font-size: 4vw;
+	}
+
 
 }
 
 @media only screen and (max-width: 749px){
 	#logo {
-		margin-top: 10vh;
+		margin-top: 12vh;
 		margin-bottom: 38vh;
-		font-size: 15vw;
+		font-size: 13vw;
 	}
 
-	#subtitle {
+	#navbar {
 		font-size: 5vw;
 	}
 
-	#pageTimer {
-		font-size: 4.25vw;
-		height: 6vw;
-		width: 55vw;
+	#logo2 {
+		font-size: 8vw;
 	}
+
+	#navbar2 {
+		font-size: 3.5vw;
+	}
+
+}
+
+iframe{
+	width: 75vw;
+	height: 50vh;
+	border: none;
+	margin-left: 12.5vw;
+	margin-right: 12.5vw;
+	overflow: hidden;
+}
+
+.gal img {
+	width: 45vw;
+}
+
+.gal {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.projects table{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#instr h3{
+	width: 85vw;
+	margin-left: auto;
+	margin-right: auto;
 
 }
