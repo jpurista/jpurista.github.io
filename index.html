@@ -9,20 +9,29 @@
 		<link href="styles.css" rel="stylesheet" type="text/css">
 	</head>
 
-    <body class="backg">
+    <body id="body">
+            <label id="switch">
+                <input type="checkbox" checked onclick="toggle()">
+                <span class="slider round"></span>
+            </label>
+            <br>
         <div id="logo">
         	<p id="name" >
         		JUANPABLO
             </p>
         	<div id="navbar">
-                <a href="index.html">home</a>
+                <a href="index.html" id="hlink">home</a>
                 &nbsp;
-                <a href="about.html">resume</a>
+                <a href="about.html" id="rlink">resume</a>
                 &nbsp;
-                <a href="webdev.html">webdev</a>
+                <a href="webdev.html" id="wlink">webdev</a>
                 &nbsp;
-                <a href="photos.html">photo</a>
+                <a href="photos.html" id="plink">photo</a>
                     </div>
-                </div>
+            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js"></script>
+        <script src="script.js"></script>
+
     </body>
 </html>

@@ -1,19 +1,35 @@
-//hai acqua frizzante?
+const options = {
+  bottom: '32px', // default: '32px'
+  right: '32px', // default: '32px'
+  left: 'unset', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#444444',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: 'white', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: ':)', // default: ''
+  autoMatchOsTheme: true // default: true
+}
 
-
-var countDownDate = new Date("Jun 4, 2003 00:00:00 CST").getTime();
-var x = setInterval(function() {
-
-  	var now = new Date().getTime();
-	var distance = now- countDownDate;
-    
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	document.getElementById("lolz").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	
-}, 1000);
+new Darkmode(options).showWidget();
+var count=0;
+function toggle(e) {
+	if (count%2 === 0){
+		document.getElementById("body").style.backgroundColor = "white";
+		document.getElementById("name").style.color = "#444444";
+		document.getElementById("hlink").style.color = "#444444";
+		document.getElementById("rlink").style.color = "#444444";
+		document.getElementById("wlink").style.color = "#444444";
+		document.getElementById("plink").style.color = "#444444";
+		count++;
+	} else if(count%2 === 1){
+		document.getElementById("body").style.backgroundColor = "#232323";
+		document.getElementById("name").style.color = "white";
+		document.getElementById("hlink").style.color = "white";
+		document.getElementById("rlink").style.color = "white";
+		document.getElementById("wlink").style.color = "white";
+		document.getElementById("plink").style.color = "white";		
+		count++;
+	}
+}
