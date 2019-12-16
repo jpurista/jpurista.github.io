@@ -7,13 +7,15 @@ const options = {
   backgroundColor: '#444444',  // default: '#fff'
   buttonColorDark: '#100f2c',  // default: '#100f2c'
   buttonColorLight: 'white', // default: '#fff'
-  saveInCookies: false, // default: true,
-  label: ':)', // default: ''
+  saveInCookies: true, // default: true,
+  label: 'night.png'; // default: ''
   autoMatchOsTheme: true // default: true
 }
 
-/*new Darkmode(options).showWidget();
+
+new Darkmode(options).showWidget();
 var count=0;
+/*
 function toggle(e) {
 	if (count%2 === 0){
 		document.getElementById("body").style.backgroundColor = "white";
