@@ -12,7 +12,7 @@ const options = {
   autoMatchOsTheme: true // default: true
 }
 
-new Darkmode(options).showWidget();
+/*new Darkmode(options).showWidget();
 var count=0;
 function toggle(e) {
 	if (count%2 === 0){
@@ -32,4 +32,4 @@ function toggle(e) {
 		document.getElementById("plink").style.color = "white";		
 		count++;
 	}
-}
+}*/
