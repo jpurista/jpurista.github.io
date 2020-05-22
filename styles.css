@@ -47,12 +47,12 @@ a {
 }
 
 
-#name, #navbar {
+#name, #navbar, #navbar3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-#navbar {
+#navbar, #navbar3 {
 	font-weight: 300;
 	margin-left: auto;
 	margin-right: auto;
@@ -82,7 +82,6 @@ a {
 	width: 15vw;
 }
 
-
 @media only screen and (min-width: 750px){
 	#logo {
 		margin-top: 20vh;
@@ -91,7 +90,8 @@ a {
 	}
 
 	#navbar {
-		font-size: 6vw;
+		font-size: 5vw;
+		display:block;
 	}
 
 	.logo2 {
@@ -102,7 +102,9 @@ a {
 		font-size: 4vw;
 	}
 
-
+	#navbar3{
+		display:none;
+	}
 }
 
 @media only screen and (max-width: 749px){
@@ -114,6 +116,7 @@ a {
 
 	#navbar {
 		font-size: 5vw;
+		display:none;
 	}
 
 	.logo2 {
@@ -121,9 +124,13 @@ a {
 	}
 
 	#navbar2 {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 
+	#navbar3{
+		display:block;
+		font-size: 7vw;
+	}
 }
 
 iframe{
