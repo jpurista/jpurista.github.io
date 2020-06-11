@@ -99,10 +99,13 @@ a {
 	}
 
 	#navbar2 {
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 
 	#navbar3{
+		display:none;
+	}
+	#break-nav{
 		display:none;
 	}
 }
@@ -130,6 +133,9 @@ a {
 	#navbar3{
 		display:block;
 		font-size: 7vw;
+	}
+	#break-nav{
+		display:block;
 	}
 }
 
