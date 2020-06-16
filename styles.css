@@ -1,7 +1,7 @@
 /* every page*/
 @font-face {
     font-family: canela;
-    src: url("canela/Canela-Light.woff2");
+    src: url("Canela/Canela-Light.woff2");
 }
 
 h3{
@@ -33,11 +33,11 @@ a:hover {
 }
 
 #logo {
-	vertical-align: middle;
 	width: 80vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
 	font-family: canela;
+	text-align: left;
 }
 
 #name, #navbar, #navbar3 {
