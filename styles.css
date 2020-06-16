@@ -11,6 +11,7 @@ body {
 	margin-top: 0px;
 	background-image: url("photos/mainimg.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-color:white;
 }
 
