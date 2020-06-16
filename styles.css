@@ -4,11 +4,17 @@
     src: url("canela/Canela-Light.woff2");
 }
 
-body {
-	font-family: canela;
+h3{
+		color: black;
+		font-family: nimbus-sans-extended, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+h5{
 	color: black;
-	font-weight: 100;
-	margin-top: 0px;
+	font-family: nimbus-sans-extended, sans-serif;
+	font-style: normal;
+	font-weight: 700;
 }
 
 a:link {
@@ -31,6 +37,7 @@ a:hover {
 	width: 80vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
+	font-family: canela;
 }
 
 #name, #navbar, #navbar3 {
@@ -54,25 +61,10 @@ a:hover {
 	body{
 		background-image: url("photos/mainimg.png");
 		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	#logo {
 		font-size: 8.25vw;
-	}
-	#navbar {
-		font-size: 3.5vw;
-		display:block;
-	}
-	.logo2 {
-		font-size: 6vw;
-	}
-	#navbar2 {
-		font-size: 3vw;
-	}
-	#navbar3{
-		display:none;
-	}
-	#break-nav{
-		display:none;
 	}
 	.gal img {
 		width: 45vw;
@@ -88,21 +80,6 @@ a:hover {
 		margin-right: 45px;
 		margin-top: 45px;
 	}
-	.gal2{
-		display:none;
-	}
-	h3{
-		color: black;
-		font-family: nimbus-sans-extended, sans-serif;
-		font-weight: 700;
-		font-style: normal;
-	}
-	h5{
-		color: black;
-		font-family: nimbus-sans-extended, sans-serif;
-		font-style: normal;
-		font-weight: 700;
-	}
 }
 
 @media only screen and (max-width: 749px){
@@ -114,43 +91,11 @@ a:hover {
 	#logo {
 		font-size: 20vw;
 	}
-	#navbar {
-		font-size: 2vw;
-		display:none;
-	}
-	.logo2 {
-		font-size: 8vw;
-	}
-	#navbar2 {
-		font-size: 2vw;
-	}
-	#navbar3{
-		display:block;
-		font-size: 6vw;
-	}
-	#break-nav{
-		display:block;
-	}
 	.gal2 img {
 		width: 80vw;
 	}
 	.gal{
 		display:none;
-	}
-	.gal2{
-		display:block;
-	}
-	h3{
-		color: black;
-		font-family: nimbus-sans-extended, sans-serif;
-		font-weight: 700;
-		font-style: normal;
-	}
-	h5{
-		color: black;
-		font-family: nimbus-sans-extended, sans-serif;
-		font-style: normal;
-		font-weight: 700;
 	}
 }
 
