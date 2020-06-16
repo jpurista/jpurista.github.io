@@ -6,38 +6,44 @@
 
 body {
 	font-family: 'Heebo', sans-serif;
-	background-color: #232323;
-	color: white;
+	color: black;
 	font-weight: 100;
 	margin-top: 0px;
+	background-image: url("photos/mainimg.png");
+	background-size: cover;
+	background-color:white;
 }
 
 a:link {
 	text-decoration: none;
-	color: white;
+	color: darkgray;
 }
 
 a:visited {
 	text-decoration: none;
-	color: white;
+	color: darkgray;
 }
 
 a:hover {
 	transition-duration: 0.4s;
-	filter: invert(50%);
+	color: gray;
 }
 
-a {
-	cursor: pointer;
+a.logo2{
+	color:black
 }
-
 
 #logo {
 	vertical-align: middle;
 	text-align: center;
 	font-weight: 900;
-	height: 42vh;
 	margin-top: 0px;
+	background: rgba(255, 255, 255, .95);
+	width: 80vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	border-radius: 3px;
+
 }
 
 .logo2 {
@@ -84,13 +90,15 @@ a {
 
 @media only screen and (min-width: 750px){
 	#logo {
-		margin-top: 20vh;
+		margin-top: 15vh;
 		margin-bottom: 38vh;
-		font-size: 15vw;
+		font-size: 8.25vw;
+		padding-bottom: 25px;
+
 	}
 
 	#navbar {
-		font-size: 5vw;
+		font-size: 3.5vw;
 		display:block;
 	}
 
@@ -114,11 +122,13 @@ a {
 	#logo {
 		margin-top: 12vh;
 		margin-bottom: 38vh;
-		font-size: 13vw;
+		font-size: 10vw;
+		padding-bottom: 25px;
+
 	}
 
 	#navbar {
-		font-size: 5vw;
+		font-size: 2vw;
 		display:none;
 	}
 
@@ -127,12 +137,12 @@ a {
 	}
 
 	#navbar2 {
-		font-size: 5vw;
+		font-size: 2vw;
 	}
 
 	#navbar3{
 		display:block;
-		font-size: 7vw;
+		font-size: 6vw;
 	}
 	#break-nav{
 		display:block;
