@@ -27,6 +27,8 @@ a:visited {
 	color: black;
 }
 
+
+
 a:hover {
 	transition-duration: 0.4s;
 	color: black
