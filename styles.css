@@ -88,6 +88,9 @@ a:hover {
 		margin-right: 45px;
 		margin-top: 45px;
 	}
+	.gal2{
+		display:none;
+	}
 	h3{
 		color: black;
 		font-family: nimbus-sans-extended, sans-serif;
@@ -133,6 +136,21 @@ a:hover {
 	}
 	.gal{
 		display:none;
+	}
+	.gal2{
+		display:block;
+	}
+	h3{
+		color: black;
+		font-family: nimbus-sans-extended, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	h5{
+		color: black;
+		font-family: nimbus-sans-extended, sans-serif;
+		font-style: normal;
+		font-weight: 700;
 	}
 }
 
