@@ -1,58 +1,37 @@
 /* every page*/
 @font-face {
-    font-family: timer;
-    src: url("clock.otf") format("opentype");
+    font-family: canela;
+    src: url("canela/Canela-Light.woff2");
 }
 
 body {
-	font-family: 'Heebo', sans-serif;
+	font-family: canela;
 	color: black;
 	font-weight: 100;
 	margin-top: 0px;
-	background-image: url("photos/mainimg.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-color:white;
 }
 
 a:link {
 	text-decoration: none;
-	color: darkgray;
+	color: black;
 }
 
 a:visited {
 	text-decoration: none;
-	color: darkgray;
+	color: black;
 }
 
 a:hover {
 	transition-duration: 0.4s;
-	color: gray;
-}
-
-a.logo2{
-	color:black
+	color: black
 }
 
 #logo {
 	vertical-align: middle;
-	text-align: center;
-	font-weight: 900;
-	margin-top: 0px;
-	background: rgba(255, 255, 255, .95);
 	width: 80vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	border-radius: 3px;
-
 }
-
-.logo2 {
-	vertical-align: middle;
-	text-align: center;
-	font-weight: 900;
-}
-
 
 #name, #navbar, #navbar3 {
 	margin-top: 0px;
@@ -60,7 +39,6 @@ a.logo2{
 }
 
 #navbar, #navbar3 {
-	font-weight: 300;
 	margin-left: auto;
 	margin-right: auto;
 	color: red;
@@ -72,75 +50,77 @@ a.logo2{
 	margin-bottom: 20px;
 }
 
-#pageTimer {
-	margin: auto;
-	font-family: 'timer';
-	font-weight: bold;
-	color: black;
-	background-color: white;
-}
-
-#pageTimer p {
-	padding-top: 1vw;
-}
-
-#yt-logo {
-	margin: 0px;
-	width: 15vw;
-}
-
 @media only screen and (min-width: 750px){
-	#logo {
-		margin-top: 15vh;
-		margin-bottom: 38vh;
-		font-size: 8.25vw;
-		padding-bottom: 25px;
-
+	body{
+		background-image: url("photos/mainimg.png");
+		background-size: cover;
 	}
-
+	#logo {
+		font-size: 8.25vw;
+	}
 	#navbar {
 		font-size: 3.5vw;
 		display:block;
 	}
-
 	.logo2 {
 		font-size: 6vw;
 	}
-
 	#navbar2 {
 		font-size: 3vw;
 	}
-
 	#navbar3{
 		display:none;
 	}
 	#break-nav{
 		display:none;
+	}
+	.gal img {
+		width: 45vw;
+	}
+	.gal2{
+		display:none;
+	}
+	.navbar-brand{
+		margin-left: 45px;
+		margin-top: 40px;
+	}
+	.navbar-nav{
+		margin-right: 45px;
+		margin-top: 45px;
+	}
+	h3{
+		color: black;
+		font-family: nimbus-sans-extended, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	h5{
+		color: black;
+		font-family: nimbus-sans-extended, sans-serif;
+		font-style: normal;
+		font-weight: 700;
 	}
 }
 
 @media only screen and (max-width: 749px){
-	#logo {
-		margin-top: 12vh;
-		margin-bottom: 38vh;
-		font-size: 10vw;
-		padding-bottom: 25px;
-
+	body{
+		background-image: url("photos/mainimg2.png");
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
-
+	#logo {
+		font-size: 20vw;
+	}
 	#navbar {
 		font-size: 2vw;
 		display:none;
 	}
-
 	.logo2 {
 		font-size: 8vw;
 	}
-
 	#navbar2 {
 		font-size: 2vw;
 	}
-
 	#navbar3{
 		display:block;
 		font-size: 6vw;
@@ -148,103 +128,15 @@ a.logo2{
 	#break-nav{
 		display:block;
 	}
+	.gal2 img {
+		width: 80vw;
+	}
+	.gal{
+		display:none;
+	}
 }
 
-iframe{
-	width: 75vw;
-	height: 50vh;
-	border: none;
-	margin-left: 12.5vw;
-	margin-right: 12.5vw;
-	overflow: hidden;
-}
-
-.gal img {
-	width: 45vw;
-}
-
-.gal {
+.gal, .gal2 {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.projects table{
-
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#instr h3{
-	width: 85vw;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-/**/
-
-#switch {
-  	position: relative;
- 	display: inline-block;
-  	width: 60px;
-  	height: 34px;
-  	float:right;
-  	margin-right: 25px;
-  	margin-top: 25px; 
-}
-
-.slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #ccc;
-	transition: .3s;
-	border-radius: 34px;
-}
-
-.slider:before {
-	position: absolute;
-	content: "";
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
-	background-color: white;
-	-webkit-transition: .4s;
-	transition: .4s;
-	border-radius: 50%;
-}
-
-input:checked + .slider {
-	background-color: #2196F3;
-}
-
-input:focus + .slider {
-	box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
-}
-
-#babytable {
-	width: 80vw;
-	height: 75vh;
-	margin-left: auto;
-	margin-right: auto;
-	border-collapse: collapse;
-}
-
-#babytable, #babytable tr, #babytable td{
-	border: 10px solid #232323;
-	background-color: #dddddd;
-}
-
-#scfilter {
-	width: 20vw;
 }
