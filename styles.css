@@ -34,6 +34,13 @@ a:hover {
 	font-family: canela;
 	text-align: left;
 }
+.contact-text a{
+	width: 80vw;
+	font-family: canela;
+	text-align: left;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
 .gal, .gal2 {
 	margin-left: auto;
 	margin-right: auto;
@@ -64,6 +71,9 @@ a:hover {
 	.no-show{
 		display: none;
 	}
+	.contact-text a{
+		font-size: 5vw;
+	}
 }
 @media only screen and (max-width: 749px){
 	body{
@@ -79,5 +89,11 @@ a:hover {
 	}
 	.logo-text{
 		font-size: 22vw;
+	}
+	.no-show{
+		display: block;
+	}
+	.contact-text a{
+		font-size: 7vw;
 	}
 }
