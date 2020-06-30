@@ -3,6 +3,11 @@
     font-family: canela;
     src: url("Canela/Canela-Light.woff2");
 }
+	body{
+		background-image: url("photos/mainimg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 h2{
 	color: black;
 	font-family: nimbus-sans-extended, sans-serif;
@@ -27,6 +32,23 @@ a:hover {
 	transition-duration: 0.4s;
 	color: black
 }
+.card-body{
+	background-color: transparent!important;
+}
+.accordion{
+	width: 90vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+.accordion button, .accordion button:active,.accordion button:hover, .accordion button:visited {
+  color: black;
+  font-family: canela;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 .logo-text {
 	width: 80vw;
 	margin-left: 10vw;
@@ -45,14 +67,12 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 @media only screen and (min-width: 750px){
-	body{
-		background-image: url("photos/mainimg.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+
 	.gal img {
-		width: 45vw;
+		width: 40vw;
 	}
 	.gal2{
 		display:none;
@@ -74,6 +94,33 @@ a:hover {
 	.contact-text a{
 		font-size: 5vw;
 	}
+	.alt-wrap { 
+      display: block;
+      position: relative;
+      color: whitesmoke;
+      border: none;
+    }
+
+  /* The alt text itself */
+  /* Will be added with js */
+    .alt-wrap p.alt {
+      position: absolute;
+      opacity: 0; /* hide initially */
+      left: 0; right: 0; bottom: 0;
+      margin: 0;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 22px;
+      background-color: rgba(0,0,0,0.8);
+      transition: all 300ms ease;
+      transition-delay: 50ms;
+    }
+
+  /* Hovering over the wrapper shows its alt p*/
+    .alt-wrap:hover > p.alt { 
+      opacity: 1; 
+      transition-delay: 0s;
+    }
 }
 @media only screen and (max-width: 749px){
 	body{
@@ -96,4 +143,32 @@ a:hover {
 	.contact-text a{
 		font-size: 7vw;
 	}
+
+	.alt-wrap { 
+      display: block;
+      position: relative;
+      color: whitesmoke;
+      border: none;
+    }
+
+  /* The alt text itself */
+  /* Will be added with js */
+    .alt-wrap p.alt {
+      position: absolute;
+      opacity: 0; /* hide initially */
+      left: 0; right: 0; bottom: 0;
+      margin: 0;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 22px;
+      background-color: rgba(0,0,0,0.8);
+      transition: all 300ms ease;
+      transition-delay: 50ms;
+    }
+
+  /* Hovering over the wrapper shows its alt p*/
+    .alt-wrap:hover > p.alt { 
+      opacity: 1; 
+      transition-delay: 0s;
+    }
 }
