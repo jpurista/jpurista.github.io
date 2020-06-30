@@ -4,7 +4,7 @@
     src: url("Canela/Canela-Light.woff2");
 }
 	body{
-		background-image: url("photos/mainimg.png");
+		background-image: url("photos/mainimg2.png");
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -123,11 +123,6 @@ a:hover {
     }
 }
 @media only screen and (max-width: 749px){
-	body{
-		background-image: url("photos/mainimg2.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
 	.gal2 img {
 		width: 80vw;
 	}
