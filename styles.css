@@ -1,3 +1,16 @@
+#going, #notgoing,{
+	display:none;
+	width: 90vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+#going2, #notgoing2{
+	display:none;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
 form{
 	width: 90%;
 	margin-left: 5%;
