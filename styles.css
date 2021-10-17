@@ -1,46 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-
-@font-face {
-	font-family: canela;
-	src: url("fonts/Canela/Canela-Light.woff2");
-}
-
 @font-face {
 	font-family: comfortaa;
 	src: url("fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
 }
-
-#going, #notgoing {
-	display: none;
-	width: 90vw;
-	margin-left: 5vw;
-	margin-right: 5vw;
-}
-
-.navbar-nav, .nav-link {
-	align: right;
-}
-
-#going2, #notgoing2 {
-	display: none;
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-form {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-.column-2 {
-	background-color: #aa2222;
-	border-radius: 15px;
-	color: white;
-}
-
-/* every page*/
 
 body {
 	font: comfortaa;
@@ -52,37 +13,18 @@ body {
 	background: radial-gradient( ellipse at top left, rgb(133, 81, 255) 0%, rgba(89, 89, 89, 0) 100%), radial-gradient( circle at bottom left, rgb(133, 81, 255) 0%, rgba(255, 255, 255, 0) 70%), radial-gradient( circle at left, rgb(133, 81, 255) 0%, rgba(89, 89, 89, 0) 50%), radial-gradient( ellipse at bottom, rgb(0, 255, 55) 0%, rgba(100, 100, 100, 0) 100%), radial-gradient( circle at bottom right, rgb(0, 174, 255) 0%, rgba(50, 50, 50, 0) 100%), radial-gradient( ellipse at top right, rgb(0, 174, 255) 0%, rgba(100, 100, 100, 0) 100%);
 }
 
-h2 {
+head {}
+
+h2, h3 {
 	color: white;
 	font-family: nimbus-sans-extended, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
-h3 {
-	color: white;
-	font-family: nimbus-sans-extended, sans-serif;
-	font-style: normal;
-	font-weight: 700;
-}
-
-a:link {
+a:link, a:visited {
 	text-decoration: none;
 	color: white;
-}
-
-a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-a:hover {
-	transition-duration: 0.4s;
-	color: black
-}
-
-.card-body {
-	background-color: transparent!important;
 }
 
 .accordion {
@@ -99,23 +41,19 @@ a:hover {
 	text-decoration: none;
 }
 
-.card {
-	background-color: transparent;
-}
-
 .logo-text {
+	font-family: comfortaa;
+	text-align: left;
 	width: 80vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	font-family: comfortaa;
-	text-align: left;
 }
 
 .contact-text a {
-	width: 80vw;
-	font: arial;
-	font-weight: 300;
+	font-family: comfortaa;
+	font-weight: 500;
 	text-align: left;
+	width: 80vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
 }
@@ -123,142 +61,4 @@ a:hover {
 .gal, .gal2 {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.alt {
-	font-family: comfortaa;
-	text-transform: lowercase;
-}
-
-@media only screen and (min-width: 750px) {
-	.gal img {
-		width: 40vw;
-	}
-	.gal2 {
-		display: none;
-	}
-	.navbar-brand {
-		margin-left: 45px;
-		margin-top: 30px;
-	}
-	.navbar-nav {
-		margin-right: 45px;
-		margin-top: 35px;
-	}
-	.logo-text {
-		font-size: 11.25vw;
-	}
-	.no-show {
-		display: none;
-	}
-	.alt-wrap {
-		display: block;
-		position: relative;
-		color: whitesmoke;
-		border: none;
-	}
-	/* The alt text itself */
-	/* Will be added with js */
-	.alt-wrap p.alt {
-		position: absolute;
-		opacity: 0;
-		/* hide initially */
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: 0;
-		padding: 15px;
-		font-size: 18px;
-		line-height: 22px;
-		background-color: rgba(0, 0, 0, 0.8);
-		transition: all 300ms ease;
-		transition-delay: 50ms;
-	}
-	/* Hovering over the wrapper shows its alt p*/
-	.alt-wrap:hover>p.alt {
-		opacity: 1;
-		transition-delay: 0s;
-	}
-	#invite-desk {
-		width: 55vw;
-		border-radius: 15px;
-		display: block;
-		/*margin-left: 7.5vw;
-		margin-right:;
-	*/
-	}
-	.phone-only {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 749px) {
-	.navbar-brand {
-		margin-left: 30px;
-		margin-top: 10px;
-	}
-	.gal2 img {
-		width: 80vw;
-	}
-	.gal {
-		display: none;
-	}
-	.logo-text {
-		font-size: 22vw;
-	}
-	.no-show {
-		display: block;
-	}
-	.alt-wrap {
-		display: block;
-		position: relative;
-		color: whitesmoke;
-		border: none;
-	}
-	/* The alt text itself */
-	/* Will be added with js */
-	.alt-wrap p.alt {
-		position: absolute;
-		opacity: 0;
-		/* hide initially */
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: 0;
-		padding: 15px;
-		font-size: 18px;
-		line-height: 22px;
-		background-color: rgba(0, 0, 0, 0.8);
-		transition: all 300ms ease;
-		transition-delay: 50ms;
-	}
-	/* Hovering over the wrapper shows its alt p*/
-	.alt-wrap:hover>p.alt {
-		opacity: 1;
-		transition-delay: 0s;
-	}
-	.phone-only {
-		display: block;
-	}
-	#invite-phone {
-		border-radius: 50px;
-	}
-	.desktop-only {
-		display: none;
-	}
-	.column-2 {
-		width: 93vw;
-		margin-right: 3.5vw;
-		margin-left: 3.5vw;
-	}
-}
-
-#num1 [aria-expanded="true"] #wooo {
-	display: none;
-}
-
-.card, .card-header {
-	border: none;
-	background-color: rgba(225, 225, 225, 1);
-	border-radius: 5px;
 }
