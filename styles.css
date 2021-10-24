@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 @font-face {
 	font-family: comfortaa;
 	src: url("fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
@@ -14,17 +16,22 @@ body {
 }
 
 .navbar {
+	font-family: 'Space Grotesk', sans-serif;
 	width: 90vw;
 	margin-top: 30px;
 	margin-left: 5vw;
 	margin-right: 5vw;
 }
 
-nav h2, nav h3 {
+nav h1 {
 	color: white;
-	font-family: nimbus-sans-extended, sans-serif;
 	font-weight: 700;
 	font-style: normal;
+}
+
+nav h3 {
+	color: white;
+	font-weight: 500;
 }
 
 .content {
