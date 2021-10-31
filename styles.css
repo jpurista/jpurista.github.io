@@ -17,6 +17,10 @@ body {
 	margin-right: 5vw;
 }
 
+.navbar-nav{
+	text-align:right;
+}
+
 nav h1 {
 	color: white;
 	font-weight: 700;
