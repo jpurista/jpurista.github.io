@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://use.typekit.net/grz6fsd.css');
+@import url('https://use.typekit.net/lyi5zly.css');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+        background-color: #FAF6EA;
+        font-family: 'Space Grotesk', sans-serif;
+}
+
+/*----------Nav Styling----------*/
+nav {
+        background-color: #FAF6EA;
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+        width: 100vw;
+}
+
+.nav-item:hover, .d-flex button:hover {
+        cursor: pointer;
+}
+
+.d-flex button {
+        border-radius: 0px;
+}
+
+.navbar-brand {
+        font-family: freighttextcmp-pro, serif;
+        font-size: 3em;
+}
+
+.navbar-brand span {
+        color: #364046;
+}
+
+.nav-item, .d-flex button {
+        font-family: rift-soft, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6em;
+}
+
+/*-------------------------------*/
+
+/*---------H Tag Styling---------*/
+body, h1, h4, h5, h6, .donate-top h3, .donate-middle h4, .donate-bottom h3 {
+        font-family: serifa, serif;
+        font-weight: 100;
+        font-style: normal;
+}
+
+h3, .wildflowers-promo h1 {
+        font-family: freighttextcmp-pro, serif;
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: none;
+}
+
+h1 {
+        font-family: freighttextcmp-pro, serif;
+        font-weight: 400;
+        color: #3b474f;
+        font-size: 3.9em;
+        text-decoration: underline;
+        text-decoration-color: #28a745;
+}
+
+.wildflowers-promo h3, .wildflowers-promo h4, .jumbotron3 h3 {
+        font-family: serifa, serif;
+        font-style: lighter;
+}
+
+.emergency {
+        font-family: serifa, serif;
+        font-weight: 400;
+}
+
+/*-------------------------------*/
+
+/*--------Button Styling--------*/
+.btn {
+        border-radius: 0px;
+        font-family: rift-soft, serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.7em;
+        background-color: #FAF6EA;
+}
+
+.subscribe-form button {
+        font-family: rift-soft, serif;
+        font-style: normal;
+        font-size: 1.7em;
+}
+
+.subscribe-form input {
+        font-size: 1.5em;
+        font-weight: lighter;
+        background-color: #FAF6EA
+}
+
+/*-------------------------------*/
+
+/*---------A Tag Styling---------*/
+a, a:active, a:hover, a:visited {
+        color: green;
+}
+
+/*-------------------------------*/
+
+/*--------Miscellaneous--------*/
+.container-fluid {
+        width: 88vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+}
+
+.jumbotron1 {
+        color: white;
+        background-image: url('images/banner.png');
+        font-family: freighttextcmp-pro, serif;
+        font-size: 3em;
+}
+
+.jumbotron3 {
+        background-color: #ECF5EB;
+        height: 300px;
+}
+
+.donate-top {
+        color: green;
+}
+
+.form-control, #state {
+        border-radius: 0px;
+        background-color: #FAF6EA;
+}
+
+/*-------------------------------*/
+
+
+.sv-footer input, .sv-btn {
+        border-radius: 0px;
+        font-size: 1.25em;
+}
+
+.sv-body__progress {
+        margin-bottom: 0px;
+}
+
+.sv-footer {
+        margin-top: 0px;
+}
+
+.modal-button {
+        background-color: green;
+}
