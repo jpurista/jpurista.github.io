@@ -4,16 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 body {
-        background-color: #FAF6EA;
+        background-color: #F9F6F0;
         font-family: 'Space Grotesk', sans-serif;
 }
 
 /*----------Nav Styling----------*/
 nav {
-        background-color: #FAF6EA;
+        background-color: #F9F6F0;
         margin-top: 7.5px;
         margin-bottom: 7.5px;
         width: 100vw;
+        text-decoration-color: #2c3e4d;
+}
+
+.nav-link{
+        font-size: 1.5em;
+        color:  #2c3e4d
 }
 
 .nav-item:hover, .d-flex button:hover {
@@ -24,40 +30,35 @@ nav {
         border-radius: 0px;
 }
 
-.navbar-brand {
-        font-family: freighttextcmp-pro, serif;
-        font-size: 3em;
-}
-
 .navbar-brand span {
         color: #364046;
 }
 
 .nav-item, .d-flex button {
-        font-family: rift-soft, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.6em;
+        font-size: 5em;
 }
 
 /*-------------------------------*/
 
 /*---------H Tag Styling---------*/
-body, h1, h4, h5, h6, .donate-top h3, .donate-middle h4, .donate-bottom h3 {
-        font-family: serifa, serif;
+
+
+body, h1, h2,h4, h5, h6, .donate-top h3, .donate-middle h4, .donate-bottom h3 {
+        font-family: 'Space Grotesk', sans-serif;
         font-weight: 100;
         font-style: normal;
 }
 
 h3, .wildflowers-promo h1 {
-        font-family: freighttextcmp-pro, serif;
+        font-family: 'Space Grotesk', sans-serif;
         font-weight: 300;
         font-style: normal;
-        text-decoration: none;
 }
 
 h1 {
-        font-family: freighttextcmp-pro, serif;
+        font-family: 'Space Grotesk', sans-serif;
         font-weight: 400;
         color: #3b474f;
         font-size: 3.9em;
@@ -84,7 +85,7 @@ h1 {
         font-weight: 100;
         font-style: normal;
         font-size: 1.7em;
-        background-color: #FAF6EA;
+        background-color: #F9F6F0;
 }
 
 .subscribe-form button {
@@ -96,14 +97,14 @@ h1 {
 .subscribe-form input {
         font-size: 1.5em;
         font-weight: lighter;
-        background-color: #FAF6EA
+        background-color: #F9F6F0
 }
 
 /*-------------------------------*/
 
 /*---------A Tag Styling---------*/
 a, a:active, a:hover, a:visited {
-        color: green;
+        color: #2c3e4d;
 }
 
 /*-------------------------------*/
@@ -117,7 +118,6 @@ a, a:active, a:hover, a:visited {
 
 .jumbotron1 {
         color: white;
-        background-image: url('images/banner.png');
         font-family: freighttextcmp-pro, serif;
         font-size: 3em;
 }
@@ -128,12 +128,12 @@ a, a:active, a:hover, a:visited {
 }
 
 .donate-top {
-        color: green;
+        color: #2c3e4d;
 }
 
 .form-control, #state {
         border-radius: 0px;
-        background-color: #FAF6EA;
+        background-color: #F9F6F0;
 }
 
 /*-------------------------------*/
@@ -153,5 +153,19 @@ a, a:active, a:hover, a:visited {
 }
 
 .modal-button {
-        background-color: green;
+        background-color: #2c3e4d;
+}
+
+h1{
+        font-family: 'Space Grotesk', sans-serif;
+        text-decoration: underline;
+        text-decoration-color: #2c3e4d;
+}
+
+.text-align-left h1, .text-align-left h2, .text-align-left h3, .text-align-left h4, .text-align-left h5, .text-align-left h6{
+        text-align: left;
+}
+
+.text-align-right h1, .text-align-right h2, .text-align-right h3, .text-align-right h4, .text-align-right h5, .text-align-right h6{
+        text-align: right;
 }

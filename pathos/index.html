@@ -10,8 +10,8 @@
                 content="Grow A Friend believes in one's ability to promote mental wellness through the caring of plants | Our free plant kits are available to anyone who may need a friend during these difficult times | Order a free plant kit today">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-                integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                 crossorigin="anonymous">
 
         <!-- Optional CSS -->
@@ -31,9 +31,10 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                        <a class="nav-link" href="#">Features</a>
-                                        <a class="nav-link" href="#">Pricing</a>
+                                        <a class="nav-link active" href="#about">about</a>
+                                        <a class="nav-link active" href="#features">features</a>
+                                        <a class="nav-link active" href="#implementation">implementation</a>
+                                        <a class="nav-link active" href="#pricing">pricing</a>
                                 </div>
                         </div>
         </nav>
@@ -41,31 +42,63 @@
         <div class="jumbotron1 jumbotron jumbotron-fluid">
                 <div class="container text-center">
                         <br>
-                        <p class="display-4"></p>
+                        <img src='images/banner.png' height='25%'>
                         <br>
                 </div>
         </div>
         <br><br>
 
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid" id='about'>
+                <br><br>
                 <div class="container">
                         <div class="row">
-                                <div class="col-12 col-md-6 col-lg-5 text-md-right text-center">
-                                        <img src="images/sample-growing.jpg" width="75%">
+                                <div class="col-12 col-md-6 col-lg-7 text-md-left text-center wildflowers-promo text-align-left">
+                                        <h1>The Pathos AI</h1>
+                                        <h3>Pathos is an AI that can talk to you whenever you need to vent or a shoulder to cry on.</h3>
+                                        <br>
+                                        <h3>Pathos is trained with crisis hotline scripts as well as other scripts & phrases that are widely used by Psychiatrists and Psychologists
+                                        </h3>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-7 text-md-left text-center wildflowers-promo">
-                                        <h1>pathos machine</h1>
-                                        <h3>Seeds begin to sprout in just a couple days!</h3>
-                                        <h4>Plant kit makes it easy and fun for anyone to grow wildflowers.</h4>
+                                <div class="col-12 col-md-6 col-lg-5 text-md-right text-center">
+                                        <img src="images/ai-image.jpeg" width="100%">
+                                </div>
+                        </div>
+
+                        <br><br>
+
+                        <div class="row">
+                                <div class="col-12 col-md-6 col-lg-5 text-md-right text-center">
+                                        <div class="Sirv" data-effect="zoom" >
+                                                <img data-src="https://ctantion.sirv.com/Images/Apple%20Watch%20white.jpg" />
+                                            </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-7 text-md-left text-center wildflowers-promo text-align-right">
+                                        <h1>The Pathos Machine</h1>
+                                        <h3>The machine takes full advantage of the AI to create a safe, calm, and trusting environment.</h3>
                                         <br>
-                                        <h4>Includes seeds, seedling bag, and a fun surprise.</h4>
-                                        <br>
-                                        <button class="btn btn-outline-success btn-block"
-                                                onclick=" window.location = 'order'">&nbsp;&nbsp;ORDER&nbsp;&nbsp;</button>
                                 </div>
                         </div>
                 </div>
         </div>
+        <br><br>
+
+        <div class="jumbotron jumbotron-fluid" id='implementation'>
+                <br><br>
+                <div class="container">
+                        <div class="row">
+                                <h1>Implementation</h1>
+                                <div class="col-12 col-md-6 col-lg-6 text-md-left text-center wildflowers-promo text-align-left">
+                                        <h2><b>The AI</b></h2>
+                                        <h3>Two modes: crisis & scheduled</h3>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 text-md-left text-center wildflowers-promo text-align-right">A
+                                        <h2><b>The Machine</b></h2>
+                                        <h3>The physical embodiment of the AI</h3>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
         <br><br>
 
         <footer>
@@ -75,10 +108,6 @@
                         <div class="row">
                                 <div class="col">
                                         <a href="/"><img src="images/logo-banner.png" width="250"></a>
-                                        <br><br>
-                                        <a class="social-tag" href="https://instagram.com/growafriendco"
-                                                target="_blank"><img
-                                                        src="https://uploads-ssl.webflow.com/5e8176c1dad44d5cfe3067b4/5e8176c17e94f6b8ef514919_instagram.svg"></a>
                                         <br><br>
                                 </div>
                                 <div class="col">
@@ -101,12 +130,10 @@
         </footer>
 
         <!-- Popper.js first, then Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
                 crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-                integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-                crossorigin="anonymous"></script>
+        <script src="https://scripts.sirv.com/sirv.js"></script>
 </body>
 
 </html>
