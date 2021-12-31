@@ -11,35 +11,46 @@ body {
         background-color: #f9fcffc0;
 }
 
-#about-me h4{
+#about-me h4 {
         font-weight: 300;
 }
-.icon-container{
+
+.icon-container {
         display: inline;
 }
-.icon{
+
+.icon {
         text-decoration: none;
 }
- 
-.ind{
+
+.ind {
+        margin-bottom: 20px;
+}
+
+.m-left{
         margin-left: 10px;
+
+}
+
+.m-right{
         margin-right: 10px;
+
 }
 
 .img-desc {
-        width:100%;
         text-align: center;
         visibility: hidden;
         opacity: 0;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0, 0, 0, 0.65);
+        background-position: center;
         background-size: cover;
-        padding:150px;
+        padding: 150px;
 }
 
-.ind:hover .img-desc{
+.ind:hover .img-desc {
         visibility: visible;
-        opacity: 1; 
-        color:white;
+        opacity: 1;
+        color: white;
         cursor: pointer;
 }
 
@@ -52,8 +63,8 @@ body {
         margin-right: 5vw;
 }
 
-a{
-        color:#0875d4;
+a {
+        color: #0875d4;
 }
 
 nav h1 {
@@ -66,12 +77,12 @@ nav h3 {
         font-weight: 400;
 }
 
-nav h3:hover, .highlight{
+nav h3:hover, .highlight {
         display: inline;
-        background: linear-gradient(180deg, rgba(255,255,255,0) 45%, #0875d456 45%);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, #0875d456 45%);
 }
 
-.active h3{
+.active h3 {
         font-weight: 800;
 }
 
@@ -82,6 +93,6 @@ nav h3:hover, .highlight{
         margin-right: 10vw;
 }
 
-.homepage{
+.homepage {
         font-weight: 300;
 }
