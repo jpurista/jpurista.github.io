@@ -72,7 +72,6 @@ nav h3:hover, .highlight {
 
 .ind{
         margin-bottom: 20px;
-        background: url(../images/projects/grow-a-friend.jpg);
         background-position: center;
         background-size: cover;
 }
@@ -85,12 +84,6 @@ nav h3:hover, .highlight {
         margin-left: 10px;
 }
 
-.img-desc {
-        background-color: rgba(0, 0, 0, 0.65);
-        background-position: center;
-        background-size: cover;
-}
-
-.ind:hover {
-        cursor: pointer;
+.img-desc:hover {
+        background: rgb(97, 32, 32);
 }
