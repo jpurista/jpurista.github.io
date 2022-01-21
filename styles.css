@@ -11,16 +11,16 @@ body {
         background-color: #f9fcffc0;
 }
 
+a, .icon {
+        text-decoration: none;
+}
+
 .list-group ul{
         background-color: #f9fcffc0;
 }
 
 .about-me h4, .about-me h2, .about-me h4 {
         font-weight: 300;
-}
-
-a, .icon {
-        text-decoration: none;
 }
 
 .icon-container {
@@ -70,10 +70,13 @@ nav h3:hover, .highlight {
         font-weight: 300;
 }
 
-/* Title and Background Styling for Projects */
 .ind{
         margin-bottom: 20px;
+        background: url(../images/projects/grow-a-friend.jpg);
+        background-position: center;
+        background-size: cover;
 }
+
 .m-right{
         margin-right: 10px;
 }
@@ -82,20 +85,12 @@ nav h3:hover, .highlight {
         margin-left: 10px;
 }
 
-#grow{
-        background-image: url('images/projects/grow-a-friend.jpg');
-        background-position: center; 
+.img-desc {
+        background-color: rgba(0, 0, 0, 0.65);
+        background-position: center;
         background-size: cover;
 }
 
-#furious{
-        background-image: url('images/projects/furious-fowl.png');
-        background-position: center; 
-        background-size: cover;
+.ind:hover {
+        cursor: pointer;
 }
-
-#pathos{
-        background-image: url('images/projects/pathos.png');
-        background-position: center; 
-        background-size: cover;
-} 
