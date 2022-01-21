@@ -16,7 +16,7 @@
                 crossorigin='anonymous'></script>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link id='favicon' rel='icon' href='images/favicon.png' type='image/png'>
+        <link id='favicon' rel='icon' href='../images/favicon.png' type='image/png'>
         <title>JP - Projects</title>
         <!-- Bootstrap CSS -->
         <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'
@@ -24,14 +24,14 @@
                 crossorigin='anonymous'>
 
         <link rel='stylesheet' href='https://use.typekit.net/isa4brq.css'>
-        <link href='styles.css' rel='stylesheet' type='text/css'>
+        <link href='../styles.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body id='body'>
 
         <nav class='navbar navbar-expand-lg navbar-light' style='background-color: transparent;'>
                 <div class='container-fluid'>
-                        <a class='navbar-brand' href='index.html'>
+                        <a class='navbar-brand' href='../index.html'>
                                 <h1 id='name-title'>JUAN PABLO</h1>
                         </a>
                         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
@@ -41,13 +41,16 @@
                         </button>
                         <div class='collapse navbar-collapse justify-content-end' id='navbarNavAltMarkup'>
                                 <div class='navbar-nav'>
-                                        <a class='nav-link active' aria-current='page' href='projects.html'>
+                                        <a class='nav-link'  href='../index.html'>
+                                                <h3>&nbsp;home&nbsp;</h3>
+                                        </a>
+                                        <a class='nav-link active' aria-current='page' href='../projects/index.html'>
                                                 <h3>&nbsp;projects&nbsp;</h3>
                                         </a>
-                                        <a class='nav-link' href='blog.html'>
+                                        <a class='nav-link' href='../blog.html'>
                                                 <h3>&nbsp;blog&nbsp;</h3>
                                         </a>
-                                        <a class='nav-link' href='about.html'>
+                                        <a class='nav-link' href='../about.html'>
                                                 <h3>&nbsp;about&nbsp;</h3>
                                         </a>
                                 </div>
@@ -55,17 +58,19 @@
                 </div>
         </nav>
 
+
         <div class='container'>
                 <div class='row justify-content-center'>
-                        <div class='col-11 ind' data-bs-toggle='modal' data-bs-target='#growAFriend'
-                                style='background-image: url(images/projects/grow-a-friend.jpg); background-position: center;  background-size: cover;'>
-                                <div class='img-desc'>
-                                        <h2>Grow A Friend</h2>
-                                        <h5>remake of the classic, angry birds</h5>
-                                        <br>
-                                        <p>Fundamentals of Programming & Computer Science</p>
+                        <a href='../projects/grow-a-friend.html'>
+                                <div class='col-11 ind' style='background-image: url(images/projects/grow-a-friend.jpg); background-position: center;  background-size: cover;'>
+                                        <div class='img-desc'>
+                                                <h2>Grow A Friend</h2>
+                                                <h5>remake of the classic, angry birds</h5>
+                                                <br>
+                                                <p>Fundamentals of Programming & Computer Science</p>
+                                        </div>
                                 </div>
-                        </div>
+                        </a>
                 </div>
                 <div class='row justify-content-center'>
                         <div class='col-11 col-md-6 ind m-right' data-bs-toggle='modal' data-bs-target='#furiousFowl'
@@ -89,89 +94,6 @@
                 </div>
         </div>
 
-        <div class='modal fade' id='growAFriend' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
-                <div class='modal-dialog modal-fullscreen'>
-                        <div class='modal-content'>
-                                <div class='modal-header'>
-                                        <h3 class='modal-title' id='exampleModalLabel'>Grow A Friend</h3>
-                                        <button type='button' class='btn-close' data-bs-dismiss='modal'
-                                                aria-label='Close'></button>
-                                </div>
-                                <div class='modal-body'>
-                                        <ul class='list-group list-group-flush'>
-                                                <li class='list-group-item'>
-                                                        <img src='images/projects/gaf-logo.png' style='max-width: 250px; height:auto;'>
-                                                </li>
-                                                <li class='list-group-item'><strong><u>Semester Taken</u></strong><br>Before College and Ongoing</li>
-                                                <li class='list-group-item'><strong><u>Course</u></strong> <br><a href='https://growafriend.org' target='_blank' style='text-decoration: none'>Independent Project</a></li>
-                                                <li class='list-group-item'><strong><u>Project Description</u></strong><br>
-                                                       About the non-profit:
-                                                       <ul>
-                                                                <li>started when the COVID-19 pandemic began and classes were cancelled</li>
-                                                                <li>a non-profit organization that aims to help create a space for the community to promote mental wellness with plants</li>
-                                                                <li>goal is to encourage everyone to grow their own little friend at home as it helps instill a sense of joy, patience, responsibility, purpose, and reverence for all aspects of life</li>
-                                                        </ul>
-                                                        <br>
-                                                        Steps taken to reach goal:
-                                                        <ul>
-                                                                <li>started a company, specifically non-profit organization, and registered with state & federal govt</li>
-                                                                <li>worked to market and fundraise to reach more people and garner more support</li>
-                                                                <li>fulfilled orders with plant kit and personal messages to each individual</li>
-                                                                <li>worked in a team to continue fulfilling orders, improve website/system, and reach out to others for sponsorship</li>
-                                                        </ul>
-                                                        <br>
-                                                        Support and Audience in Numbers:
-                                                        <ul>
-                                                                <li>over 250 plant kits and notes delivered to students and individuals</li>
-                                                                <li>6 states reached</li>
-                                                                <li>over 1000 unique website users</li>
-                                                        </ul>
-                                                </li>
-                                                <li class='list-group-item'><strong><u>Technical Goals</u></strong><br>The goals of my project include:<br>
-                                                        <ul>
-                                                                <li>create a website that supports light to medium traffic</li>
-                                                                <li>accept orders online through an order form</li>
-                                                                <li>register with all necessary authorities as a non-profit</li>
-                                                                <li>implement marketing strategies through social medias such as instagram</li>
-                                                                <li>recieve feedback from mentors and community members for support and feeback</li>
-                                                        </ul>
-                                                </li>
-                                                <li class='list-group-item'><strong><u>Final Product & Documentation</u></strong><br>
-                                                        The final project for this project is the website: <a href='https://growafriend.org' target='_blank' style='text-decoration: none;'>growafriend.org</a>
-                                                <br>
-                                                        An additional final product would consist of the plant kit that can be ordered from the website. The plant kit is seeing constant improvement as we recieve additional funding and feedback from the community.
-                                                        <br>
-                                                        Finally, most documentation for this project can be found on github. Although, this is an altered version to exclude confidental information and maintain order security.
-                                                        <br>
-                                                        <div class='icon-container'>
-                                                                <a href='https://github.com/jpurista/112-term-project' target='_blank' class='icon'>
-                                                                        <img src='icons/github.svg' width='32' height='32' alt='link to  GitHub'>
-                                                                </a>
-                                                        </div>
-                                                </li>
-                                                <li class='list-group-item'><strong><u>Looking Ahead</u></strong>
-                                                        <br>
-                                                        At the end of a project I like to look back and reflect on how I can improve on things in the future.
-                                                        <br><br>
-                                                        The single biggest thing in making this concept a reality is knowledge. I have minimal knowledge of AI, HCI, prototyping, and creating an overall good user-experience.                                                     
-                                                        <br><br>
-                                                        To gain knowledge and skills in these areas, I believe I could benefit from class at Carnegie Mellon University, like:
-                                                        <ul>
-                                                                <li>Human-Machine Virtuosity</li>
-                                                                <li>Gadgets, Sensors, and Activity Recognition in HCI</li>
-                                                                <li>Rapid Prototyping Technologies</li>
-                                                                <li>Other CS courses in AI/ML</li>
-                                                        </ul>
-                                                </li>
-                                                <li class='list-group-item'>
-                                                        <div class='addthis_inline_share_toolbox'></div>
-                                                </li>
-                                        </ul>
-                                        <br><br>
-                                </div>
-                        </div>
-                </div>
-        </div>
 
         <div class='modal fade' id='furiousFowl' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                 <div class='modal-dialog modal-fullscreen'>
@@ -316,10 +238,6 @@
         <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
                 integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'
                 crossorigin='anonymous'></script>
-
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <script type='text/javascript'
-                src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61cbd6e7f7d332a5'></script>
 
 </body>
 

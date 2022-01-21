@@ -11,7 +11,12 @@ body {
         background-color: #f9fcffc0;
 }
 
-#about-me h4 {
+.list-group ul{
+        background-color: #f9fcffc0;
+
+}
+
+.about-me h4, .about-me h2, .about-me h4 {
         font-weight: 300;
 }
 
