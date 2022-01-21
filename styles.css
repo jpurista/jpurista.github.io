@@ -13,50 +13,18 @@ body {
 
 .list-group ul{
         background-color: #f9fcffc0;
-
 }
 
 .about-me h4, .about-me h2, .about-me h4 {
         font-weight: 300;
 }
 
-.icon-container {
-        display: inline;
-}
-
 .icon {
         text-decoration: none;
 }
 
-.ind {
-        margin-bottom: 20px;
-}
-
-.m-left{
-        margin-left: 10px;
-
-}
-
-.m-right{
-        margin-right: 10px;
-
-}
-
-.img-desc {
-        text-align: center;
-        visibility: hidden;
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.65);
-        background-position: center;
-        background-size: cover;
-        padding: 150px;
-}
-
-.ind:hover .img-desc {
-        visibility: visible;
-        opacity: 1;
-        color: white;
-        cursor: pointer;
+.icon-container {
+        display: inline;
 }
 
 .navbar {
@@ -100,4 +68,34 @@ nav h3:hover, .highlight {
 
 .homepage {
         font-weight: 300;
+}
+
+/* Title and Background Styling for Projects */
+.ind{
+        margin-bottom: 20px;
+}
+.m-right{
+        margin-right: 10px;
+}
+
+.m-left{
+        margin-left: 10px;
+}
+
+#furious{
+        background-image: url('images/projects/furious-fowl.png');
+        background-position: center; 
+        background-size: cover;
+}
+
+#grow{
+        background-image: url('images/projects/grow-a-friend.jpg');
+        background-position: center; 
+        background-size: cover;
+}
+
+#pathos{
+        background-image: url('images/projects/pathos.png');
+        background-position: center; 
+        background-size: cover;
 }
