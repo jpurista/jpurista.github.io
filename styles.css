@@ -19,7 +19,7 @@ body {
         font-weight: 300;
 }
 
-.icon {
+a, .icon {
         text-decoration: none;
 }
 
@@ -82,14 +82,14 @@ nav h3:hover, .highlight {
         margin-left: 10px;
 }
 
-#furious{
-        background-image: url('images/projects/furious-fowl.png');
+#grow{
+        background-image: url('images/projects/grow-a-friend.jpg');
         background-position: center; 
         background-size: cover;
 }
 
-#grow{
-        background-image: url('images/projects/grow-a-friend.jpg');
+#furious{
+        background-image: url('images/projects/furious-fowl.png');
         background-position: center; 
         background-size: cover;
 }
@@ -98,4 +98,4 @@ nav h3:hover, .highlight {
         background-image: url('images/projects/pathos.png');
         background-position: center; 
         background-size: cover;
-}
+} 
