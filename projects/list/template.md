@@ -2,7 +2,7 @@
 
 ---
 
-### <u>Semester Taken</u>
+### <u>Project Timeline</u>
 Semester
 
 ---
