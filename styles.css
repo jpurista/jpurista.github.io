@@ -96,6 +96,8 @@ nav h3:hover, .highlight {
 .img-desc {
         display: none;
         height: 50vh;
+        bottom: 0;
+        left: 0;
 }
 
 .ind:hover .img-desc {
