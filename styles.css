@@ -8,17 +8,15 @@ body {
         width: 100vw;
         margin: 0;
         background-color: #f9fcffc0;
-        cursor: url(resources/cursor.png), auto;
 }
 
 a, .icon {
         text-decoration: none;
-        cursor: url(resources/cursor3.png), auto;
 }
-
+/* 
 h1,h2,h3,h4,h5,h6,p{
         cursor: url(resources/cursor3.png), auto;
-}
+} */
 
 .icon {
         vertical-align: text-bottom;
