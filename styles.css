@@ -142,6 +142,7 @@ img:not(.icon) {
         }
 
         .img-inner {
+
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
@@ -151,6 +152,7 @@ img:not(.icon) {
         }
 
         .ind:hover .img-desc {
+                display:flex;
                 padding-top: 12.5vh;
                 color: white;
                 height: 100%;
