@@ -100,12 +100,11 @@ img:not(.icon) {
 /* Mobile Devices */
 @media (hover: none), (pointer: coarse) {
         .img-desc {
-                display: block;
+                display: flex;
                 padding-top: 12.5vh;
         }
 
         .img-inner {
-                display:flex;
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
@@ -142,7 +141,6 @@ img:not(.icon) {
         }
 
         .img-inner {
-
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
@@ -152,7 +150,7 @@ img:not(.icon) {
         }
 
         .ind:hover .img-desc {
-                display:flex;
+                display: flex;
                 padding-top: 12.5vh;
                 color: white;
                 height: 100%;
