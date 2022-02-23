@@ -101,13 +101,14 @@ img:not(.icon){
 @media (hover: none), (pointer: coarse) {
         .img-desc {   
                 display: block;
+                padding-top: 12.5vh;
         }
         .img-inner{
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(255, 255, 255, 0);
+                color: white;
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
@@ -118,20 +119,16 @@ img:not(.icon){
         .img-desc {   
                 display: none;
         }
-        
         .img-inner{
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(255, 255, 255, 0);
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
-        
         .ind:hover .img-desc {
                 padding-top: 12.5vh;
-                display: flex;
                 color: white;
                 height: 100%;
                 width: 100%;
