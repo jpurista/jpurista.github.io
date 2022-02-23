@@ -13,10 +13,10 @@ body {
 
 a, .icon {
         text-decoration: none;
-        cursor: url(resources/cursor2.png), auto;
+        cursor: url(resources/cursor3.png), auto;
 }
 
-h1,h2,h3,h4,h5,h6,p:not(a p){
+h1,h2,h3,h4,h5,h6,p{
         cursor: url(resources/cursor3.png), auto;
 }
 
