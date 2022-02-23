@@ -59,7 +59,7 @@ nav h3:hover, .highlight {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, #0875d456 45%);
 }
 
-img:not(.icon){
+img:not(.icon) {
         border-radius: 15px;
 }
 
@@ -99,11 +99,12 @@ img:not(.icon){
 
 /* Mobile Devices */
 @media (hover: none), (pointer: coarse) {
-        .img-desc {   
+        .img-desc {
                 display: block;
                 padding-top: 12.5vh;
         }
-        .img-inner{
+
+        .img-inner {
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
@@ -112,14 +113,34 @@ img:not(.icon){
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
+
+        /* --------- background images on projects -------- */
+
+        #grow-a-friend {
+                background: url('resources/projects/grow-a-friend2.jpg');
+                background-size: cover;
+        }
+
+        #furious-fowl {
+                background: url('resources/projects/furious-fowl2.jpg');
+                background-size: cover;
+        }
+
+        #pathos {
+                background: url('resources/projects/pathos2.jpg');
+                background-size: cover;
+                background-position: right;
+        }
+
 }
 
 /* Non-Mobile Devices */
 @media not all and (pointer: coarse) {
-        .img-desc {   
+        .img-desc {
                 display: none;
         }
-        .img-inner{
+
+        .img-inner {
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
@@ -127,41 +148,45 @@ img:not(.icon){
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
+
         .ind:hover .img-desc {
                 padding-top: 12.5vh;
                 color: white;
                 height: 100%;
                 width: 100%;
         }
-}
 
-/* --------- background images on projects -------- */
+        /* --------- background images on projects -------- */
 
-#grow-a-friend{
-        background: url('resources/projects/grow-a-friend.jpg'); 
-        background-size: cover;
-}
-#grow-a-friend:hover{
-        background: url('resources/projects/grow-a-friend2.jpg'); 
-        background-size: cover;
-}
+        #grow-a-friend {
+                background: url('resources/projects/grow-a-friend.jpg');
+                background-size: cover;
+        }
 
-#furious-fowl{
-        background: url('resources/projects/furious-fowl.jpg'); 
-        background-size: cover;
-}
-#furious-fowl:hover{
-        background: url('resources/projects/furious-fowl2.jpg'); 
-        background-size: cover;
-}
+        #grow-a-friend:hover {
+                background: url('resources/projects/grow-a-friend2.jpg');
+                background-size: cover;
+        }
 
-#pathos{
-        background: url('resources/projects/pathos.jpg'); 
-        background-size: cover; 
-        background-position: right;
-}
-#pathos:hover{
-        background: url('resources/projects/pathos2.jpg'); 
-        background-size: cover; 
-        background-position: right;
+        #furious-fowl {
+                background: url('resources/projects/furious-fowl.jpg');
+                background-size: cover;
+        }
+
+        #furious-fowl:hover {
+                background: url('resources/projects/furious-fowl2.jpg');
+                background-size: cover;
+        }
+
+        #pathos {
+                background: url('resources/projects/pathos.jpg');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pathos:hover {
+                background: url('resources/projects/pathos2.jpg');
+                background-size: cover;
+                background-position: right;
+        }
 }
