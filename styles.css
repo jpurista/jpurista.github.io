@@ -16,7 +16,7 @@ a, .icon {
         cursor: url(resources/cursor2.png), auto;
 }
 
-text{
+h1,h2,h3,h4,h5,h6,p{
         cursor: url(resources/cursor3.png), auto;
 }
 
