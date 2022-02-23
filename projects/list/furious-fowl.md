@@ -1,7 +1,4 @@
-
----
-
-# Furious Fowl
+<h1>Furious Fowl</h1>
 
 ---
 
