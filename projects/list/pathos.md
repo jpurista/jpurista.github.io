@@ -1,7 +1,4 @@
-
----
-
-# Pathos
+<h1>Pathos</h1>
 
 ---
 

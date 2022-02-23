@@ -1,7 +1,4 @@
-
----
-
-# Grow A Friend
+<h1>Grow A Friend</h1>
 
 ---
 
