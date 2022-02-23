@@ -105,6 +105,7 @@ img:not(.icon) {
         }
 
         .img-inner {
+                display:flex;
                 padding-left: 50px;
                 padding-right: 50px;
                 margin-left: auto;
