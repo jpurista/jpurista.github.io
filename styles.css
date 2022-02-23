@@ -99,6 +99,9 @@ img:not(.icon){
 
 /* Mobile Devices */
 @media (hover: none), (pointer: coarse) {
+        .img-desc {   
+                display: block;
+        }
 
 }
 
