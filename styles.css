@@ -13,11 +13,11 @@ body {
 
 a, .icon {
         text-decoration: none;
-        cursor: url('resources/cursor2.png'), auto;
+        cursor: url(resources/cursor2.png), auto;
 }
 
 text{
-        cursor: url('resources/cursor3.png'), auto;
+        cursor: url(resources/cursor3.png), auto;
 }
 
 .icon {
