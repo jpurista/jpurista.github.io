@@ -100,7 +100,6 @@ img:not(.icon) {
 /* Mobile Devices */
 @media (hover: none), (pointer: coarse) {
         .img-desc {
-                display: flex;
                 padding-top: 12.5vh;
         }
 
