@@ -35,15 +35,13 @@ The goals of my project include:
 ---
 
 ### <u>Final Product & Documentation</u>
-The final project for this project is the website: <a href='https://growafriend.org' target='_blank' style='text-decoration: none;'>growafriend.org</a>
+The final project for this project is the website: <a href='https://growafriend.co' target='_blank' style='text-decoration: none;'>growafriend.co</a>
 
 An additional final product would consist of the plant kit that can be ordered from the website. The plant kit is seeing constant improvement as we recieve additional funding and feedback from the community.
 
-Finally, most documentation for this project can be found on github. Although, this is an altered version to exclude confidental information and maintain order security.
-
-<div class='icon-container'>
+<!-- <div class='icon-container'>
         <a href='https://github.com/jpurista/112-term-project' target='_blank'>&nbsp;<img src='/resources/icons/github.svg' width='30' height='30' alt='link to Juan Pablos GitHub' class='icon'>&nbsp;</a>
-</div>
+</div> -->
 
 ---
 
