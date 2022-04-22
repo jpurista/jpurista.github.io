@@ -13,10 +13,6 @@ body {
 a, .icon {
         text-decoration: none;
 }
-/* 
-h1,h2,h3,h4,h5,h6,p{
-        cursor: url(resources/cursor3.png), auto;
-} */
 
 .icon {
         vertical-align: text-bottom;
@@ -98,6 +94,10 @@ img:not(.icon) {
 
 .m-left {
         margin-left: 10px;
+}
+
+.print-btn a {
+        cursor: pointer;
 }
 
 /* Mobile Devices */
