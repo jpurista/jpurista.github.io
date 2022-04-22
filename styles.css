@@ -96,7 +96,7 @@ img:not(.icon) {
         margin-left: 10px;
 }
 
-.print-btn a {
+.print-btn img {
         cursor: pointer;
 }
 
