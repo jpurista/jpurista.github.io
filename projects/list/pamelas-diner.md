@@ -16,7 +16,7 @@ Spring 2022
 ---
 
 ### <u>Project Description</u>
-This project was completed as a web development project for my Information Systems class. For he 
+This project was completed as a web development project for my Information Systems class. In completing the project, I made a design guide for uniformity throughout the site, created and followed wireframes, and performed user testing for optimized user experience. There were no front-end frameworks used for the layout of the pages as most elements were made with pure HTML and CSS. However, there were some external JQuery and iFrame elements used on the Location and Reviews pages.
 
 ---
 
@@ -32,7 +32,7 @@ This project was completed as a web development project for my Information Syste
 ### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on github.
 
-Additionally, the live project site can be found here: <a href=''>Pamela's Diner</a>
+Additionally, the live project site can be found here: <a href='https://juanpab.com/pamelas/' target='_blank'>Pamela's Diner</a>
 <div class='icon-container'>
         <a href='https://github.com/jpurista/pamelas' target='_blank' class='icon'>
                 <img src='../resources/icons/github.svg' width='32' height='32' alt='link to  GitHub'>
