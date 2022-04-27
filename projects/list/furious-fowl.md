@@ -37,15 +37,11 @@ The technical goals of my project include:
 ---
 
 ### <u>Final Product & Documentation</u>
-The final project source files and documentation can be found on github or on google drive
+The final project source files and documentation can be found on github.
                 <br>
                 <div class='icon-container'>
                         <a href='https://github.com/jpurista/112-term-project' target='_blank' class='icon'>
                                 <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub'>
-                        </a>
-                        <a href='https://drive.google.com/drive/folders/1dPmzi3cWaNEEe63HiLD7fYfKw7SmcZ3l?usp=sharing'
-                                target='_blank' class='icon'>
-                                <img src='/resources/icons/drive.png' width='32' height='32' alt='link to Google Drive'>
                         </a>
 </div>
 

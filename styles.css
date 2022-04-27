@@ -96,7 +96,7 @@ img:not(.icon) {
         margin-left: 10px;
 }
 
-.print-btn img {
+.share-btn img {
         cursor: pointer;
 }
 
@@ -130,6 +130,12 @@ img:not(.icon) {
 
         #pathos {
                 background: url('resources/projects/pathos2.jpg');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pamelas {
+                background: url('resources/projects/pamelas2.jpg');
                 background-size: cover;
                 background-position: right;
         }
@@ -192,4 +198,17 @@ img:not(.icon) {
                 background-size: cover;
                 background-position: right;
         }
+
+        #pamelas {
+                background: url('resources/projects/pamelas.jpg');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pamelas:hover{
+                background: url('resources/projects/pamelas2.jpg');
+                background-size: cover;
+                background-position: right;
+        }
+
 }
