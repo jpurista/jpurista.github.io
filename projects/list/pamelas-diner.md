@@ -1,7 +1,7 @@
 
 ---
 
-<h1>Redesign of Pamela's Diner Website</h1>
+<h1>Pamela's Diner Website</h1>
 
 ---
 
