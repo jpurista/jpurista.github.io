@@ -130,23 +130,23 @@ img:not(.icon) {
         /* --------- background images on projects -------- */
 
         #grow-a-friend {
-                background: url('resources/projects/grow-a-friend2.jpg');
+                background: url('resources/projects/grow-a-friend2.webp');
                 background-size: cover;
         }
 
         #furious-fowl {
-                background: url('resources/projects/furious-fowl2.jpg');
+                background: url('resources/projects/furious-fowl2.webp');
                 background-size: cover;
         }
 
         #pathos {
-                background: url('resources/projects/pathos2.jpg');
+                background: url('resources/projects/pathos2.webp');
                 background-size: cover;
                 background-position: right;
         }
 
         #pamelas {
-                background: url('resources/projects/pamelas2.jpg');
+                background: url('resources/projects/pamelas2.webp');
                 background-size: cover;
                 background-position: right;
         }
@@ -179,45 +179,45 @@ img:not(.icon) {
         /* --------- background images on projects -------- */
 
         #grow-a-friend {
-                background: url('resources/projects/grow-a-friend.jpg');
+                background: url('resources/projects/grow-a-friend.webp');
                 background-size: cover;
         }
 
         #grow-a-friend:hover {
-                background: url('resources/projects/grow-a-friend2.jpg');
+                background: url('resources/projects/grow-a-friend2.webp');
                 background-size: cover;
         }
 
         #furious-fowl {
-                background: url('resources/projects/furious-fowl.jpg');
+                background: url('resources/projects/furious-fowl.webp');
                 background-size: cover;
         }
 
         #furious-fowl:hover {
-                background: url('resources/projects/furious-fowl2.jpg');
+                background: url('resources/projects/furious-fowl2.webp');
                 background-size: cover;
         }
 
         #pathos {
-                background: url('resources/projects/pathos.jpg');
+                background: url('resources/projects/pathos.webp');
                 background-size: cover;
                 background-position: right;
         }
 
         #pathos:hover {
-                background: url('resources/projects/pathos2.jpg');
+                background: url('resources/projects/pathos2.webp');
                 background-size: cover;
                 background-position: right;
         }
 
         #pamelas {
-                background: url('resources/projects/pamelas.jpg');
+                background: url('resources/projects/pamelas.webp');
                 background-size: cover;
                 background-position: right;
         }
 
         #pamelas:hover{
-                background: url('resources/projects/pamelas2.jpg');
+                background: url('resources/projects/pamelas2.webp');
                 background-size: cover;
                 background-position: right;
         }
