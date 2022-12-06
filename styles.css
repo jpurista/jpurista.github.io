@@ -151,6 +151,12 @@ img:not(.icon) {
                 background-position: right;
         }
 
+        #uiux {
+                background: url('resources/projects/uiux2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
 }
 
 /* Non-Mobile Devices */
@@ -222,4 +228,27 @@ img:not(.icon) {
                 background-position: right;
         }
 
+        #uiux {
+                background: url('resources/projects/uiux.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #uiux:hover {
+                background: url('resources/projects/uiux2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #faap {
+                background: url('resources/projects/faap.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #faap:hover {
+                background: url('resources/projects/faap.webp');
+                background-size: cover;
+                background-position: right;
+        }
 }
