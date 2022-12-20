@@ -139,17 +139,17 @@ img {
 
         /* --------- background images on projects -------- */
 
-        #grow-a-friend {
+        #grow-a-friend-np {
                 background: url('resources/projects/grow-a-friend2.webp');
                 background-size: cover;
         }
 
-        #furious-fowl {
+        #furious-fowl-game {
                 background: url('resources/projects/furious-fowl2.webp');
                 background-size: cover;
         }
 
-        #pathos {
+        #pathos-proj {
                 background: url('resources/projects/pathos2.webp');
                 background-size: cover;
                 background-position: right;
@@ -200,33 +200,37 @@ img {
 
         /* --------- background images on projects -------- */
 
-        #grow-a-friend {
+        #grow-a-friend-np {
                 background: url('resources/projects/grow-a-friend.webp');
                 background-size: cover;
+                background-position: center;
         }
 
-        #grow-a-friend:hover {
+        #grow-a-friend-np:hover {
                 background: url('resources/projects/grow-a-friend2.webp');
                 background-size: cover;
+                background-position: center;
         }
 
-        #furious-fowl {
+        #furious-fowl-game {
                 background: url('resources/projects/furious-fowl.webp');
                 background-size: cover;
+                background-position: center;
         }
 
-        #furious-fowl:hover {
+        #furious-fowl-game:hover {
                 background: url('resources/projects/furious-fowl2.webp');
                 background-size: cover;
+                background-position: center;
         }
 
-        #pathos {
+        #pathos-proj {
                 background: url('resources/projects/pathos.webp');
                 background-size: cover;
                 background-position: right;
         }
 
-        #pathos:hover {
+        #pathos-proj:hover {
                 background: url('resources/projects/pathos2.webp');
                 background-size: cover;
                 background-position: right;

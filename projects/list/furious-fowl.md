@@ -38,12 +38,11 @@ The technical goals of my project include:
 
 #### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on github.
-                <br>
-                <div class='icon-container'>
-                        <a href='https://github.com/jpurista/112-term-project' target='_blank' class='icon'>
-                                <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
-                        </a>
-</div>
+        <div class='icon-container'>
+                <a href='https://github.com/jpurista/112-term-project' target='_blank' class='icon'>
+                        <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+                </a>
+        </div>
 
 ---
 
