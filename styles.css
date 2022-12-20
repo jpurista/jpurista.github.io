@@ -22,8 +22,12 @@ body {
         cursor: url('resources/circle.png'), auto;
 }
 
-body:active {
+body:active{
         cursor: url('resources/square.png'), auto;
+}
+
+a:hover{
+        cursor: url('resources/triangle2.png'), auto;
 }
 
 a, .icon {
