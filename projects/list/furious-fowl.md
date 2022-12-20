@@ -1,18 +1,18 @@
-<h1>Furious Fowl</h1>
+# Furious Fowl
 
 ---
 
-### <u>Project Timeline</u>
+#### <u>Project Timeline</u>
 Fall 2021
 
 ---
 
-### <u>Course</u>
+#### <u>Course</u>
 <a href='https://www.cs.cmu.edu/~112/' target='_blank' style='text-decoration: none'>15-112: Fundamentals of Programming and Computer Science</a>
 
 ---
 
-### <u>Project Description</u>
+#### <u>Project Description</u>
 Furious Fowl was completed as my term project.
 This game is called 'Furious Fowl'! It is inspired by the famous 'Angry Birds'.
 - In the game, you launch birds at the green pigs in an attempt to defeat them all
@@ -26,7 +26,7 @@ Apart from playing the four pre-built levels, you can build your own levels by f
 
 ---
 
-### <u>Project/Technical Goals</u>
+#### <u>Project/Technical Goals</u>
 The technical goals of my project include:
 - organized file and image system
 - fairly realistic projectile-structure interactions
@@ -36,18 +36,18 @@ The technical goals of my project include:
 
 ---
 
-### <u>Final Product & Documentation</u>
+#### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on github.
                 <br>
                 <div class='icon-container'>
                         <a href='https://github.com/jpurista/112-term-project' target='_blank' class='icon'>
-                                <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub'>
+                                <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                         </a>
 </div>
 
 ---
 
-### <u>Looking Ahead</u>
+#### <u>Looking Ahead</u>
 At the end of a project I like to look back and reflect on how I can improve on things in the future.
 
 In this instance, I think one of the biggest factors in improving on this game is time. The game had a beginning-to-end timeline of about one month. With just a bit more time I believe I could improve the efficiency of the game while including game features that I wasn't able to inlclude in v1.

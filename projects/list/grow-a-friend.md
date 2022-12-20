@@ -1,18 +1,18 @@
-<h1>Grow A Friend</h1>
+# Grow A Friend
 
 ---
 
-### <u>Project Timeline</u>
+#### <u>Project Timeline</u>
 Started junior year of high school and ongoing
 
 ---
 
-### <u>Course</u>
+#### <u>Course</u>
 Personal Project
 
 ---
 
-### <u>Project Description</u>
+#### <u>Project Description</u>
 About the non-profit:
 - started when the COVID-19 pandemic began and classes were cancelled
 - a non-profit organization that aims to help create a space for the community to promote mental wellness with plants
@@ -24,7 +24,7 @@ Support and Audience in Numbers:
 - over 1000 unique website users
 ---
 
-### <u>Project/Technical Goals</u>
+#### <u>Project/Technical Goals</u>
 The goals of my project include:
 - create a website that supports light to medium traffic
 - accept orders online through an order form
@@ -34,7 +34,7 @@ The goals of my project include:
 
 ---
 
-### <u>Final Product & Documentation</u>
+#### <u>Final Product & Documentation</u>
 The final project for this project is the website: <a href='https://growafriend.co' target='_blank' style='text-decoration: none;'>growafriend.co</a>
 
 An additional final product would consist of the plant kit that can be ordered from the website. The plant kit is seeing constant improvement as we recieve additional funding and feedback from the community.
@@ -45,7 +45,7 @@ An additional final product would consist of the plant kit that can be ordered f
 
 ---
 
-### <u>Looking Ahead</u>
+#### <u>Looking Ahead</u>
 I hope to grow the non-profit in the future as I attend college to reach more students and young adults. The goal is to restart the project and get the website up and running. I want to improve the packaging and quality of the plant kits that are sent out.
 
 ---

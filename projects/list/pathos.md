@@ -1,18 +1,18 @@
-<h1>Pathos</h1>
+# Pathos
 
 ---
 
-### <u>Project Timeline</u>
+#### <u>Project Timeline</u>
 Fall 2021
 
 ---
 
-### <u>Course</u>
+#### <u>Course</u>
 <a href='https://courses.ideate.cmu.edu/62-150/f2021/' target='_blank' style='text-decoration: none'>62-150 B: Introduction to Mediascapes: 2D to 3D Spatial Environments</a>
 
 ---
 
-### <u>Project Description</u>
+#### <u>Project Description</u>
 Pathos was created as a concept for my media class.
 - an AI that you can talk to whenever you need to vent or a shoulder to cry on
 - trained with crisis hotline scripts as well as other scripts & phrases that are widely used by Psychiatrists, Psychologists, and Counselors
@@ -26,7 +26,7 @@ There is also a physical embodiment of the AI
 
 ---
 
-### <u>Project/Technical Goals</u>
+#### <u>Project/Technical Goals</u>
 The goals of my project include:
 - investigate other empathy projects as a precedent for our projects
 - understand empathy and how we can implement it in our surroundings
@@ -34,15 +34,15 @@ The goals of my project include:
 
 ---
 
-### <u>Final Product & Documentation</u>
+#### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on google slides.
 <div class='icon-container'>
-        <a href='https://docs.google.com/presentation/d/1UXdN4dYcXEo8RLJLVD5dYQbdp2Q45KsAHC9ymi8eR3M/edit?usp=sharing' target='_blank' class='icon'><img src='/resources/icons/slides.png' width='auto' height='32' alt='link to Google Slides'></a>
+        <a href='https://docs.google.com/presentation/d/1UXdN4dYcXEo8RLJLVD5dYQbdp2Q45KsAHC9ymi8eR3M/edit?usp=sharing' target='_blank' class='icon'><img src='/resources/icons/slides.png' width='auto' height='32' alt='link to Google Slides' style="border-radius:0px;"></a>
 </div>
 
 ---
 
-### <u>Looking Ahead</u>
+#### <u>Looking Ahead</u>
 At the end of a project I like to look back and reflect on how I can improve on things in the future.
 The single biggest thing in making this concept a reality is knowledge. I have minimal knowledge of AI, HCI, prototyping, and creating an overall good user-experience.
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-:root{
+:root {
         --off-white: #f9fcffc0;
         --main-color: #0875d4;
         --highlight-color: #0875d456;
@@ -25,8 +25,9 @@ a, .icon {
         text-decoration: none;
 }
 
-.icon {
+img.icon {
         vertical-align: text-bottom;
+        border-radius: 0px !important;
 }
 
 .list-group ul {
@@ -69,7 +70,7 @@ nav h3:hover, .highlight {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--highlight-color) 45%);
 }
 
-img:not(.icon) {
+img {
         border-radius: 15px;
 }
 
@@ -219,36 +220,37 @@ img:not(.icon) {
         #pamelas {
                 background: url('resources/projects/pamelas.webp');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 
-        #pamelas:hover{
+        #pamelas:hover {
                 background: url('resources/projects/pamelas2.webp');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 
         #uiux {
                 background: url('resources/projects/uiux.webp');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 
         #uiux:hover {
                 background: url('resources/projects/uiux2.webp');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 
         #faap {
-                background: url('resources/projects/faap.webp');
+                background: url('resources/projects/faap.jpg');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 
+
         #faap:hover {
-                background: url('resources/projects/faap.webp');
+                background: url('resources/projects/faap2.jpg');
                 background-size: cover;
-                background-position: right;
+                background-position: center;
         }
 }
