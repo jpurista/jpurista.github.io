@@ -1,16 +1,16 @@
 # Pathos
 
----
+
 
 #### <u>Project Timeline</u>
 Fall 2021
 
----
+
 
 #### <u>Course</u>
 <a href='https://courses.ideate.cmu.edu/62-150/f2021/' target='_blank' style='text-decoration: none'>62-150 B: Introduction to Mediascapes: 2D to 3D Spatial Environments</a>
 
----
+
 
 #### <u>Project Description</u>
 Pathos was created as a concept for my media class.
@@ -24,7 +24,7 @@ There is also a physical embodiment of the AI
 - The physical machine takes full advantage of the AI to create a safe, calm, and trusting environment
 - The machine is meant to be placed in a semi-private communal setting such as study room in a university or quiet pod in the workplace
 
----
+
 
 #### <u>Project/Technical Goals</u>
 The goals of my project include:
@@ -32,7 +32,7 @@ The goals of my project include:
 - understand empathy and how we can implement it in our surroundings
 - create a concept model of a project that recognizes emotion as an input and responds appropriately
 
----
+
 
 #### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on google slides.
@@ -40,7 +40,7 @@ The final project source files and documentation can be found on google slides.
         <a href='https://docs.google.com/presentation/d/1UXdN4dYcXEo8RLJLVD5dYQbdp2Q45KsAHC9ymi8eR3M/edit?usp=sharing' target='_blank' class='icon'><img src='/resources/icons/slides.png' width='auto' height='32' alt='link to Google Slides' style="border-radius:0px;"></a>
 </div>
 
----
+
 
 #### <u>Looking Ahead</u>
 At the end of a project I like to look back and reflect on how I can improve on things in the future.
@@ -52,4 +52,4 @@ To gain knowledge and skills in these areas, I believe I could benefit from clas
 - Rapid Prototyping Technologies
 - Other CS courses in AI/ML
 
----
+

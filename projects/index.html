@@ -3,11 +3,14 @@
 
 <head>
         <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-PDK3LFP');</script>
+        <script>(function (w, d, s, l, i) {
+                        w[l] = w[l] || []; w[l].push({
+                                'gtm.start':
+                                        new Date().getTime(), event: 'gtm.js'
+                        }); var f = d.getElementsByTagName(s)[0],
+                                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-PDK3LFP');</script>
 
         <meta charset="utf-8" />
         <meta name="author" content="Juan Pablo Urista">
@@ -17,17 +20,22 @@
         <link id='favicon' rel='icon' href='/resources/favicon.png' type='image/png'>
         <title>Projects - JP</title>
         <!-- Bootstrap CSS -->
-        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'
-                integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3'
-                crossorigin='anonymous'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+                crossorigin="anonymous">
+
 
         <link href='../styles.css' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="projects.js"></script>
+        <script src="/enableElements.js"></script>
 </head>
 
 <body id='body'>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDK3LFP"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDK3LFP" height="0" width="0"
+                        style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <nav class='navbar navbar-expand-lg navbar-light' style='background-color: transparent;'>
                 <div class='container-fluid'>
@@ -58,27 +66,67 @@
         <div class='container'>
                 <div class='resume' style='text-align: center;'>
                         <a href='https://resume.io/r/EXQ2LfpcO' target='_blank'>&nbsp;
-                                <img src='../resources/icons/download.svg' width='30' height='30' class='icon'>&nbsp;</a>
-                                        
+                                <img src='../resources/icons/pdf.svg' width='30' height='30' class='icon'
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-title="Open Resume">&nbsp;</a>
+
                         <a href='https://linkedin.com/in/juanpablou' target='_blank'>&nbsp;<img
-                                        src='../resources/icons/linkedin.svg' width='30' height='30'
-                                        class='icon'>&nbsp;</a>
+                                        src='../resources/icons/linkedin.svg' width='30' height='30' class='icon'
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-title="Open Linkedin">&nbsp;</a>
                 </div>
 
                 <br>
 
                 <div class='row justify-content-center'>
 
-                        <a href='/projects/faap' class='col-10 col-md-5 ind m-right m-left' id='faap'>
+                        <div class="d-flex justify-content-evenly mb-4 col-11">
+                                <a class="btn btn-primary" id="codingButton" style="width:30%;">
+                                        <h5 class="mb-0 p-1">Coding Projects</h5>
+                                </a>
+                                <a class="btn btn-outline-primary" id="designButton" style="width:30%;">
+                                        <h5 class="mb-0 p-1">Design Projects</h5>
+                                </a>
+
+                                <div class="vr"></div>
+
+                                <div class="d-flex" id="searchContainer" style="width: 34%;">
+                                        <input class="form-control me-2 fs-5" id="queryInput" type="search"
+                                                placeholder="Enter keywords" aria-label="Search">
+                                        <button class="btn btn-outline-success fs-5" id="searchQuery"
+                                                type="button">Search</button>
+                                </div>
+                        </div>
+
+                        <hr class="col-10">
+                        <div class="text-center col-10" id="searchResults">
+                                <p class=" mb-1 alert alert-primary py-1 px-4 fs-5  d-inline-block"></p>
+                                <p class="fs-5 fst-italic fw-light mt-1">Hover over each card to see details</p>
+                        </div>
+
+                        <br>
+                        <a href='/projects/opentable' class='col-10 col-md-5 ind m-right m-left project coding' id='opentable'
+                                keywords="databases sql mongodb normalization python query queries">
                                 <div class='img-desc'>
                                         <div class='img-inner'>
-                                                <h1>Filipino-American Association of Pittsburgh</h1>
-                                                <h4>Redesigning the Website</h4>
+                                                <h1>Redesigning the Opentable Database</h1>
+                                                <h4>All thing Databases</h4>
                                         </div>
                                 </div>
                         </a>
 
-                        <a href='/projects/uiux' class='col-10 col-md-5 ind m-right m-left' id='uiux'>
+                        <a href='/projects/faap' class='col-10 col-md-5 ind m-right m-left project coding' id='faap'
+                                keywords="web coding development full stack html css figma">
+                                <div class='img-desc'>
+                                        <div class='img-inner'>
+                                                <h1>Filipino-American Association of Pittsburgh</h1>
+                                                <h4>Remastering the Website</h4>
+                                        </div>
+                                </div>
+                        </a>
+
+                        <a href='/projects/uiux' class='col-10 col-md-5 ind m-right m-left project design' id='uiux'
+                                keywords="design course self taught user interface experience figma">
                                 <div class='img-desc'>
                                         <div class='img-inner'>
                                                 <h1>Learning About UI/UX</h1>
@@ -87,7 +135,8 @@
                                 </div>
                         </a>
 
-                        <a href='/projects/pamelas-diner' class='col-10 col-md-5 ind m-right m-left' id='pamelas'>
+                        <a href='/projects/pamelas-diner' class='col-10 col-md-5 ind m-right m-left project coding'
+                                id='pamelas' keywords="web coding development front frontend html css">
                                 <div class='img-desc'>
                                         <div class='img-inner'>
                                                 <h1>Pamela's Diner</h1>
@@ -96,16 +145,18 @@
                                 </div>
                         </a>
 
-                        <a href='/projects/furious-fowl' class='col-10 col-md-5 ind m-right m-left' id='furious-fowl-game'>
+                        <a href='/projects/furious-fowl' class='col-10 col-md-5 ind m-right m-left project coding'
+                                id='furious-fowl-game' keywords="python coding development full stack">
                                 <div class='img-desc'>
-                                        <div  class='img-inner'>
+                                        <div class='img-inner'>
                                                 <h1>Furious Fowl</h1>
                                                 <h4>Projectile-Based Launcher Game</h4>
                                         </div>
                                 </div>
                         </a>
 
-                        <a href='/projects/pathos' class='col-10 col-md-5 ind m-right m-left' id='pathos-proj'>
+                        <a href='/projects/pathos' class='col-10 col-md-5 ind m-right m-left project design'
+                                id='pathos-proj' keywords="concept design mental health healthcare">
                                 <div class='img-desc'>
                                         <div class='img-inner'>
                                                 <h1>Pathos</h1>
@@ -114,12 +165,23 @@
                                 </div>
                         </a>
 
-                        <a href='/projects/grow-a-friend' class='col-10 col-md-5 ind m-right m-left' id='grow-a-friend-np'>
+                        <a href='/projects/grow-a-friend' class='col-10 col-md-5 ind m-right m-left project coding'
+                                id='grow-a-friend-np' keywords="coding personal project plants mental health organization">
                                 <div class='img-desc'>
-                                        <div  class='img-inner'>
+                                        <div class='img-inner'>
                                                 <h1>Grow A Friend</h1>
                                                 <h4>Plants for Mental Wellness</h4>
+                                        </div>
                                 </div>
+                        </a>
+
+                        <a href='/projects/collages' class='col-10 col-md-5 ind m-right m-left project design' id='collages'
+                                keywords="design collages heterotopia color copy paste cut creative">
+                                <div class='img-desc'>
+                                        <div class='img-inner'>
+                                                <h1>Collated Collages</h1>
+                                                <h4>cmd+c  ->  cmd+v</h4>
+                                        </div>
                                 </div>
                         </a>
 
@@ -132,29 +194,32 @@
         <div class='d-flex justify-content-between content'>
                 <div class='p-2'>
                         <a href='https://github.com/jpurista/' target='_blank'>
-                                &nbsp;<img src='/resources/icons/github.svg' width='30' height='30' alt='link to Juan Pablos GitHub' class='icon'>&nbsp;
+                                &nbsp;<img src='/resources/icons/github.svg' width='30' height='30'
+                                        alt='link to Juan Pablos GitHub' class='icon'>&nbsp;
                         </a>
                         <a href='https://linkedin.com/in/juanpablou/' target='_blank'>
-                                &nbsp;<img src='/resources/icons/linkedin.svg' width='30' height='30' alt='link to Juan Pablos LinkedIn' class='icon'>&nbsp;
+                                &nbsp;<img src='/resources/icons/linkedin.svg' width='30' height='30'
+                                        alt='link to Juan Pablos LinkedIn' class='icon'>&nbsp;
                         </a>
                         <a href='https://instagram.com/juanpab_u/' target='_blank'>
-                                &nbsp;<img src='/resources/icons/instagram.svg' width='30' height='30' alt='link to Juan Pablos Instagram' class='icon'>&nbsp;
+                                &nbsp;<img src='/resources/icons/instagram.svg' width='30' height='30'
+                                        alt='link to Juan Pablos Instagram' class='icon'>&nbsp;
                         </a>
                         <a href='https://open.spotify.com/user/jpurista' target='_blank'>
-                                &nbsp;<img src='/resources/icons/spotify.svg' width='30' height='30' alt='link to Juan Pablos Spotify' class='icon'>&nbsp;
+                                &nbsp;<img src='/resources/icons/spotify.svg' width='30' height='30'
+                                        alt='link to Juan Pablos Spotify' class='icon'>&nbsp;
                         </a>
                 </div>
-                <p  class='p-2' style='font-weight: 400;''>
-                        All Rights Reserved &copy; 2022 Juan Pablo U
+                <p class='p-2' style='font-weight: 400;'>
+                        All Rights Reserved &copy; 2023 Juan Pablo U
                 </p>
 
         </div>
         <br>
 
         <!-- Bootstrap JS -->
-        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
-                integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'
-                crossorigin='anonymous'></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 
 </body>
 

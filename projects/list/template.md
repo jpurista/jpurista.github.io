@@ -1,16 +1,16 @@
 # Project Title
 
----
+
 
 #### <u>Project Timeline</u>
 Semester
 
----
+
 
 #### <u>Course</u>
 Course Name
 
----
+
 
 #### <u>Project Description</u>
 Description Elaboration
@@ -18,7 +18,7 @@ Description Elaboration
 - two
 - three
 
----
+
 
 #### <u>Project/Technical Goals</u>
 Description Goals
@@ -26,7 +26,7 @@ Description Goals
 - two
 - three
 
----
+
 
 #### <u>Final Product & Documentation</u>
 Final Project/Product Description.
@@ -51,9 +51,9 @@ Final Project/Product Description.
         </a>
 </div>
 
----
+
 
 #### <u>Looking Ahead</u>
 Description of further project development
 
----
+

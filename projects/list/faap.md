@@ -1,16 +1,16 @@
 # Filipino-American Association of Pittsburgh Website
 
----
+
 
 #### <u>Project Timeline</u>
 Fall 2022
 
----
+
 
 #### <u>Course</u>
 <a href="https://www.cmu.edu/information-systems/images/syllabi/67240-mobile-web-design-dev-f17.pdf" target="_blank"  style='text-decoration: none'>67-240: Mobile Web Design & Development</a>
 
----
+
 
 #### <u>Project Description</u>
 As part of the class, we worked on a consulting project in conjunction with a local organization. The Filipino-American Association of Pittsburgh needed a website and content redesign. I worked in a group of three to:
@@ -19,7 +19,7 @@ As part of the class, we worked on a consulting project in conjunction with a lo
 - update wireframes to hi-fi
 - implement wireframes using bootstrap
 
----
+
 
 #### <u>Project/Technical Goals</u>
 The goal of the redesigned site was to simplify the user experience of the FAAP website for each of our target user groups. This helps prospective members easily access information about the organization’s mission and background, current members quickly find upcoming events, and donors find reasons to donate as well as conveniently find the link to donate.  
@@ -28,7 +28,7 @@ One of the objectives of this project was to make the information personal and t
 
 We accomplished this by implementing a clear drop-down navigation bar, highlighting the donation links, and making the information more visually compelling rather than text heavy.
 
----
+
 
 #### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on GitHub and Google Drive.
@@ -43,7 +43,7 @@ Additionally, the live project site can be found here: <a href='https://juanpab.
         </a>
 </div>
 
----
+
 
 #### <u>Looking Ahead</u>
 Moving forward, the main features to implement would be the member portal and
@@ -54,4 +54,4 @@ already accounts for the addition of these aspects. Additionally, ensuring the b
 the contact form on the website is set up is another important next step to take so they
 can store all the data.
 
----
+

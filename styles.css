@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 :root {
         --off-white: #f9fcffc0;
         --main-color: #0875d4;
-        --highlight-color: #0875d456;
+        --highlight-color: #379bf3b3;
+        --light-gray: #c1c1c1;
+        --green: rgba(94, 215, 132, 0.907);
+        --purple: #c997f2e1;
+        --red: #eb9494da;
 }
 
 ::selection {
@@ -12,7 +16,7 @@
 }
 
 body {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: 400;
         color: black;
         height: 100vh;
@@ -21,6 +25,8 @@ body {
         background-color: var(--off-white);
         cursor: url('resources/circle.png'), auto;
 }
+
+
 
 body:active{
         cursor: url('resources/square.png'), auto;
@@ -41,6 +47,10 @@ img.icon {
 
 .list-group ul {
         background-color: var(--off-white);
+}
+
+.homepage ul {
+        list-style-type: '- ';
 }
 
 .about-me h4, .about-me h2, .about-me h4 {
@@ -79,6 +89,26 @@ nav h3:hover, .highlight {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--highlight-color) 45%);
 }
 
+.highlight-gray {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%,  var(--light-gray) 45%);
+
+}
+
+.highlight-green {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--green) 45%);
+
+}
+
+.highlight-purple {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--purple) 45%);
+
+}
+
+.highlight-red {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%,  var(--red) 45%);
+
+}
+
 img {
         border-radius: 15px;
 }
@@ -89,9 +119,17 @@ img {
 
 .content {
         width: 80vw;
-        margin-top: 30px;
         margin-left: 10vw;
         margin-right: 10vw;
+}
+
+.content-md {
+        width: 60vw;
+        margin:auto;
+}
+
+.content-md  h4 {
+        margin-top: 40px;
 }
 
 .homepage {
@@ -121,6 +159,25 @@ img {
         cursor: pointer;
 }
 
+
+@media screen and (max-width: 767px){
+        .vr {
+                display: none;
+        }
+
+        #title-desktop{
+                display: none;
+        }
+
+        #designButton, #codingButton {
+                 width: 45% !important;
+        }
+
+        #searchContainer{
+                display: none !important;
+        }
+}
+
 /* Mobile Devices */
 @media (hover: none), (pointer: coarse) {
         .img-desc {
@@ -136,6 +193,7 @@ img {
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
+
 
         /* --------- background images on projects -------- */
 
@@ -173,6 +231,18 @@ img {
                 background-position: center;
         }
 
+        #opentable {
+                background: url('resources/projects/opentable2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #collages {
+                background: url('resources/projects/collages2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
 }
 
 /* Non-Mobile Devices */
@@ -186,6 +256,8 @@ img {
                 padding-right: 50px;
                 margin-left: auto;
                 margin-right: auto;
+                padding-top: 0vh;
+                padding-bottom: 0vh;
                 padding-top: 5vh;
                 padding-bottom: 5vh;
         }
@@ -196,6 +268,11 @@ img {
                 color: white;
                 height: 100%;
                 width: 100%;
+        }
+
+        #title-mobile{
+                display: none;
+
         }
 
         /* --------- background images on projects -------- */
@@ -270,5 +347,29 @@ img {
                 background: url('resources/projects/faap2.jpg');
                 background-size: cover;
                 background-position: center;
+        }
+
+        #opentable {
+                background: url('resources/projects/opentable.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #opentable:hover {
+                background: url('resources/projects/opentable2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #collages {
+                background: url('resources/projects/collages.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #collages:hover {
+                background: url('resources/projects/collages2.jpg');
+                background-size: cover;
+                background-position: left;
         }
 }

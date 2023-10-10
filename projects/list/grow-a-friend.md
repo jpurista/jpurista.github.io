@@ -1,16 +1,16 @@
 # Grow A Friend
 
----
+
 
 #### <u>Project Timeline</u>
 Started junior year of high school and ongoing
 
----
+
 
 #### <u>Course</u>
 Personal Project
 
----
+
 
 #### <u>Project Description</u>
 About the non-profit:
@@ -22,7 +22,7 @@ Support and Audience in Numbers:
 - over 250 plant kits and notes delivered to students and individuals
 - 6 states reached
 - over 1000 unique website users
----
+
 
 #### <u>Project/Technical Goals</u>
 The goals of my project include:
@@ -32,7 +32,7 @@ The goals of my project include:
 - implement marketing strategies through social medias such as instagram
 - receive feedback from mentors and community members for support and feedback
 
----
+
 
 #### <u>Final Product & Documentation</u>
 The final project for this project is the website: <a href='https://growafriend.co' target='_blank' style='text-decoration: none;'>growafriend.co</a>
@@ -43,9 +43,9 @@ An additional final product would consist of the plant kit that can be ordered f
         <a href='https://github.com/jpurista/112-term-project' target='_blank'>&nbsp;<img src='/resources/icons/github.svg' width='30' height='30' alt='link to Juan Pablos GitHub' class='icon'>&nbsp;</a>
 </div> -->
 
----
+
 
 #### <u>Looking Ahead</u>
 I hope to grow the non-profit in the future as I attend college to reach more students and young adults. The goal is to restart the project and get the website up and running. I want to improve the packaging and quality of the plant kits that are sent out.
 
----
+

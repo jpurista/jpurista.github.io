@@ -1,16 +1,16 @@
 # Furious Fowl
 
----
+
 
 #### <u>Project Timeline</u>
 Fall 2021
 
----
+
 
 #### <u>Course</u>
 <a href='https://www.cs.cmu.edu/~112/' target='_blank' style='text-decoration: none'>15-112: Fundamentals of Programming and Computer Science</a>
 
----
+
 
 #### <u>Project Description</u>
 Furious Fowl was completed as my term project.
@@ -24,7 +24,7 @@ Apart from playing the four pre-built levels, you can build your own levels by f
 - The games are stored in a directory with all levels built by all users
 - To access a level you built in a previous session, you follow the menu to the 'open' screen where you will enter the filename
 
----
+
 
 #### <u>Project/Technical Goals</u>
 The technical goals of my project include:
@@ -34,7 +34,7 @@ The technical goals of my project include:
 - auto-updating scoreboard
 - level editor
 
----
+
 
 #### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on github.
@@ -44,7 +44,7 @@ The final project source files and documentation can be found on github.
                 </a>
         </div>
 
----
+
 
 #### <u>Looking Ahead</u>
 At the end of a project I like to look back and reflect on how I can improve on things in the future.
@@ -53,4 +53,4 @@ In this instance, I think one of the biggest factors in improving on this game i
 
 Apart from time, I believe I could benefit from more education in creating a solid UI/UX and writing a storyline for a game and including that in the actual gameplay.
 
----
+
