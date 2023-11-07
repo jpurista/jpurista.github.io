@@ -20,30 +20,6 @@ $(document).ready(() => {
                 var searchWords = $('#queryInput').val().split(/[\s,]+/);
                 var numResults = 0;
 
-                
-
-                if (searchWords.length == 1 && searchWords[0].toLowerCase() == 'design') {
-                        $('.coding').hide();
-                        $('#codingButton').attr('class', 'btn btn-outline-primary');
-
-                        $('.design').show();
-                        $('#designButton').attr('class', 'btn btn-primary');
-                        $('#queryInput').val('');
-
-                        numResults = $('.design').length;
-                }
-
-                else if (searchWords.length == 1 && searchWords[0].toLowerCase() == 'coding') {
-                        $('.coding').show();
-                        $('#codingButton').attr('class', 'btn btn-primary');
-
-                        $('.design').hide();
-                        $('#designButton').attr('class', 'btn btn-outline-primary');
-                        $('#queryInput').val('');
-
-                        numResults = $('.coding').length;
-                }
-         else {
                 $('#codingButton').attr('class', 'btn btn-outline-primary');
                 $('#designButton').attr('class', 'btn btn-outline-primary');
 
@@ -65,15 +41,14 @@ $(document).ready(() => {
                                 $(this).hide();
                         }
                 });
+
+                var word = numResults === 1 ? "is" : "are";
+                var quotedSearchWords = searchWords.map(function (word) {
+                        return "'" + word.toLowerCase() + "'";
+                }).join(', ');
+
+                $('#searchResults p:first-child').text('There ' + word + ' ' + numResults + ' results for ' + quotedSearchWords + '.');
+
+                $('#queryInput').val('');
         }
-
-        var word = numResults === 1 ? "is" : "are";
-        var quotedSearchWords = searchWords.map(function (word) {
-                return "'" + word.toLowerCase() + "'";
-        }).join(', ');
-
-        $('#searchResults p:first-child').text('There ' + word + ' ' + numResults + ' results for ' + quotedSearchWords + '.');
-
-        $('#queryInput').val('');
-}
 });

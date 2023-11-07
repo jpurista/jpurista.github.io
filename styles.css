@@ -243,6 +243,12 @@ img {
                 background-position: left;
         }
 
+        #manuscript {
+                background: url('resources/projects/manuscript2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
 }
 
 /* Non-Mobile Devices */
@@ -369,6 +375,18 @@ img {
 
         #collages:hover {
                 background: url('resources/projects/collages2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #manuscript {
+                background: url('resources/projects/manuscript.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #manuscript:hover {
+                background: url('resources/projects/manuscript2.jpg');
                 background-size: cover;
                 background-position: left;
         }
