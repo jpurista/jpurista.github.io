@@ -2,6 +2,7 @@ $(document).ready(() => {
 
         setTimeout(function () {
                 $('#codingButton').click();
+                console.log("this is the updated version");
         }, 1);
 
         $('#codingButton').click(() => {
