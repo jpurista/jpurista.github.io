@@ -32,8 +32,8 @@ Final Product:
 <br>
 <a href="https://xd.adobe.com/view/c0e07d8b-14c9-402a-b551-d37cbdfb9c60-95b3/?fullscreen" target="_blank">Live Adobe XD Prototype</a>
 <div class='icon-container'>
-        <a href='../resources/projects/manuscript/Final-Prototype-jurista.pdf' target='_blank' class='icon'>
-                <img src='../resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+        <a href='/resources/projects/manuscript/Final-Prototype-jurista.pdf' target='_blank' class='icon'>
+                <img src='/resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                 <span>Final Product PDF</span>
         </a>
 </div>
@@ -41,23 +41,23 @@ Final Product:
 
 Documentation:
 <div class='icon-container'>
-        <a href='../resources/projects/manuscript/executive-summary-jurista.pdf' target='_blank' class='icon'>
-                <img src='../resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+        <a href='/resources/projects/manuscript/executive-summary-jurista.pdf' target='_blank' class='icon'>
+                <img src='/resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                 <span>Executive Summary</span>
         </a>
         <br><br>
-        <a href='../resources/projects/manuscript/manuscript-timesheet-jurista.pdf' target='_blank' class='icon'>
-                <img src='../resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+        <a href='/resources/projects/manuscript/manuscript-timesheet-jurista.pdf' target='_blank' class='icon'>
+                <img src='/resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                 <span>Timesheet</span>
         </a>
         <br><br>
-        <a href='../resources/projects/manuscript/Stylesheet-jurista.pdf' target='_blank' class='icon'>
-                <img src='../resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+        <a href='/resources/projects/manuscript/Stylesheet-jurista.pdf' target='_blank' class='icon'>
+                <img src='/resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                 <span>Stylesheet</span>
         </a>
         <br><br>
-        <a href='../resources/projects/manuscript/Final-Prototype-jurista.xd' target='_blank' class='icon'>
-                <img src='../resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+        <a href='/resources/projects/manuscript/Final-Prototype-jurista.xd' target='_blank' class='icon'>
+                <img src='/resources/icons/pdf.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
                 <span>Adobe XD File</span>
         </a>
         <br>

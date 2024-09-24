@@ -25,7 +25,7 @@ The goals of the dashboard were to communicate a high amount of data in a compac
 The final product is a set of hi-fidelity wireframes for the Cafe23 dashboard. The wireframes include the store view and business overview. The wireframes are designed to be responsive and accessible, with a clean and modern interface. The wireframes are based on the low-fidelity wireframes created in the first half of the project, and incorporate feedback from user testing. The wireframes are designed to be implemented into a functional web application.
 <div class='icon-container'>
         <a href='https://www.figma.com/design/MkQv9tgvSp7cw1DsZOgxPE/Cafe23-Dashboard?node-id=0-1&m=dev&t=sSaKttYnxMBTRM3e-1' target='_blank' class='icon'>
-                <img src='../resources/icons/figma.svg' width='32' height='32' alt='link to  Figma' style="border-radius:0px;">
+                <img src='/resources/icons/figma.svg' width='32' height='32' alt='link to  Figma' style="border-radius:0px;">
         </a>
 </div>
 

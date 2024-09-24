@@ -36,10 +36,10 @@ The final project source files and documentation can be found on GitHub and Goog
 Additionally, the live project site can be found here: <a href='https://juanpab.com/FAAP/' target='_blank'>FAAP Website</a>
 <div class='icon-container'>
         <a href='https://drive.google.com/drive/folders/1-x68tNxqvpJ62kjNn3LFn3xiLttbqMYn?usp=sharing' target='_blank' class='icon'>
-                <img src='../resources/icons/drive.png' width='32' height='32' alt='link to  drive' style="border-radius:0px;">
+                <img src='/resources/icons/drive.png' width='32' height='32' alt='link to  drive' style="border-radius:0px;">
         </a>
         <a href='https://github.com/jpurista/faap' target='_blank' class='icon'>
-                <img src='../resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+                <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
         </a>
 </div>
 

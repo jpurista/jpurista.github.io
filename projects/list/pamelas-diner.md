@@ -32,7 +32,7 @@ The final project source files and documentation can be found on github.
 Additionally, the live project site can be found here: <a href='https://juanpab.com/pamelas/' target='_blank'>Pamela's Diner</a>
 <div class='icon-container'>
         <a href='https://github.com/jpurista/pamelas' target='_blank' class='icon'>
-                <img src='../resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
+                <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
         </a>
 </div>
 
