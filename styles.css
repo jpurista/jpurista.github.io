@@ -89,23 +89,22 @@ nav h3:hover, .highlight {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--highlight-color) 45%);
 }
 
+.highlight-blue {
+        background: var(--highlight-color);
+}
+
 .highlight-gray {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%,  var(--light-gray) 45%);
+        background: var(--light-gray);
 
 }
 
 .highlight-green {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--green) 45%);
+        background: var(--green);
 
 }
 
 .highlight-purple {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--purple) 45%);
-
-}
-
-.highlight-red {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%,  var(--red) 45%);
+        background: var(--purple) 45%;
 
 }
 
@@ -249,6 +248,11 @@ img {
                 background-position: left;
         }
 
+        #cafe-23 {
+                background: url('resources/projects/cafe-232.jpg');
+                background-size: cover;
+                background-position: center;
+        }
 }
 
 /* Non-Mobile Devices */
@@ -389,5 +393,17 @@ img {
                 background: url('resources/projects/manuscript2.jpg');
                 background-size: cover;
                 background-position: left;
+        }
+
+        #cafe-23 {
+                background: url('resources/projects/cafe-23.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #cafe-23:hover {
+                background: url('resources/projects/cafe-232.jpg');
+                background-size: cover;
+                background-position: center;
         }
 }
