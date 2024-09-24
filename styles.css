@@ -253,6 +253,18 @@ img {
                 background-size: cover;
                 background-position: center;
         }
+
+        #simmr {
+                background: url('resources/projects/simmr2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert {
+                background: url('resources/projects/concert2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
 }
 
 /* Non-Mobile Devices */
@@ -403,6 +415,30 @@ img {
 
         #cafe-23:hover {
                 background: url('resources/projects/cafe-232.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #simmr {
+                background: url('resources/projects/simmr.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #simmr:hover {
+                background: url('resources/projects/simmr2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert {
+                background: url('resources/projects/concert.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert:hover {
+                background: url('resources/projects/concert2.jpg');
                 background-size: cover;
                 background-position: center;
         }

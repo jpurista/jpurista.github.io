@@ -37,7 +37,7 @@ The goals of my project include:
 #### <u>Final Product & Documentation</u>
 The final project source files and documentation can be found on google slides.
 <div class='icon-container'>
-        <a href='https://docs.google.com/presentation/d/1UXdN4dYcXEo8RLJLVD5dYQbdp2Q45KsAHC9ymi8eR3M/edit?usp=sharing' target='_blank' class='icon'><img src='/resources/icons/slides.png' width='auto' height='32' alt='link to Google Slides' style="border-radius:0px;"></a>
+        <a href='https://docs.google.com/presentation/d/1UXdN4dYcXEo8RLJLVD5dYQbdp2Q45KsAHC9ymi8eR3M/edit?usp=sharing' target='_blank' class='icon'><img src='/resources/icons/slides.svg' width='auto' height='32' alt='link to Google Slides' style="border-radius:0px;"></a>
 </div>
 
 

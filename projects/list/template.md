@@ -35,7 +35,7 @@ Final Project/Product Description.
                 <img src='/resources/icons/github.svg' width='32' height='32' alt='link to  GitHub' style="border-radius:0px;">
         </a>
         <a href='' target='_blank' class='icon'>
-                <img src='/resources/icons/slides.png' width='32' height='32' alt='link to  slides' style="border-radius:0px;">
+                <img src='/resources/icons/slides.svg' width='32' height='32' alt='link to  slides' style="border-radius:0px;">
         </a>
         <a href='' target='_blank' class='icon'>
                 <img src='/resources/icons/linkedin.svg' width='32' height='32' alt='link to  linkedin' style="border-radius:0px;">
