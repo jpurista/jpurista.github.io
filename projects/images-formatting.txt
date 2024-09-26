@@ -1,5 +1,0 @@
-set size of cover image to: 5in by 3in
-
-for the darker version: add a black rectangle on top and set opacity to 45%
-
-naming instructions: the lighter version (example.jpg) and darker version (example2.jpg)
