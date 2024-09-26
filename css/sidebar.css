@@ -1,0 +1,40 @@
+.side-menu {
+        position: sticky;
+        top: 20px;
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+        padding-right: 15px;
+        text-align: right;
+    }
+    
+    .bd-links-heading {
+        color: #212529;
+        margin-bottom: 0.5rem;
+        text-align: right;
+    }
+    
+    .bd-links-link {
+        padding: .1875rem .5rem;
+        margin-top: .125rem;
+        color: rgba(0,0,0,.65);
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .bd-links-link:hover,
+    .bd-links-link:focus {
+        color: rgba(0,0,0,.85);
+        background-color: rgba(121,82,179,.1);
+    }
+    
+    .bd-links-link.active {
+        font-weight: 600;
+        color: rgba(0,0,0,.85);
+        background-color: #e6f2ff;
+    }
+    
+    @media (max-width: 768px) {
+        .side-menu {
+            display: none;
+        }
+    }

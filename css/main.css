@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+        --off-white: #f9fcffc0;
+        --main-color: #0875d4;
+        --highlight-color: #379bf3b3;
+        --light-gray: #c1c1c1;
+        --green: rgba(94, 215, 132, 0.907);
+        --purple: #c997f2e1;
+        --red: #eb9494da;
+}
+
+::selection {
+        background: var(--main-color);
+        color: white;
+}
+
+body {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        color: black;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        background-color: var(--off-white);
+        cursor: url('/resources/circle.png'), auto;
+}
+
+
+
+body:active{
+        cursor: url('/resources/square.png'), auto;
+}
+
+a:hover{
+        cursor: url('/resources/triangle2.png'), auto;
+}
+
+a, .icon {
+        text-decoration: none;
+}
+
+img.icon {
+        vertical-align: text-bottom;
+        border-radius: 0px !important;
+}
+
+.list-group ul {
+        background-color: var(--off-white);
+}
+
+.homepage ul {
+        list-style-type: '- ';
+}
+
+.about-me h4, .about-me h2, .about-me h4 {
+        font-weight: 300;
+}
+
+.icon-container {
+        display: inline;
+}
+
+.navbar {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        width: 90vw;
+        margin-top: 30px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+}
+
+a {
+        color: var(--main-color);
+}
+
+nav h1 {
+        color: var(--main-color);
+        font-weight: 700;
+}
+
+nav h3 {
+        color: black;
+        font-weight: 400;
+}
+
+nav h3:hover, .highlight {
+        display: inline;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, var(--highlight-color) 45%);
+}
+
+.highlight-blue {
+        background: var(--highlight-color);
+}
+
+span.highlight-blue {
+        padding: 0px 5px;
+}
+
+.highlight-gray {
+        background: var(--light-gray);
+
+}
+
+.highlight-green {
+        background: var(--green);
+
+}
+
+.highlight-purple {
+        background: var(--purple) 45%;
+
+}
+
+img {
+        border-radius: 15px;
+}
+
+.active h3 {
+        font-weight: 800;
+}
+
+.content {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+}
+
+.content-md {
+        width: 60vw;
+        margin:auto;
+}
+
+.content-md  h4 {
+        margin-top: 40px;
+}
+
+.homepage {
+        font-weight: 300;
+}
+
+.resume * {
+        display: inline-block;
+}
+
+.ind {
+        margin-bottom: 20px;
+        height: 50vh;
+        text-align: center;
+        border-radius: 15px;
+}
+
+.m-right {
+        margin-right: 10px;
+}
+
+.m-left {
+        margin-left: 10px;
+}
+
+.share-btn img {
+        cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px){
+        .vr {
+                display: none;
+        }
+
+        #title-desktop{
+                display: none;
+        }
+
+        #designButton, #codingButton {
+                 width: 45% !important;
+        }
+
+        #searchContainer{
+                display: none !important;
+        }
+}
+
+/* Mobile Devices */
+@media (hover: none), (pointer: coarse) {
+        .img-desc {
+                padding-top: 12.5vh;
+        }
+
+        .img-inner {
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                color: white;
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+        }
+
+
+        /* --------- background images on projects -------- */
+
+        #grow-a-friend-np {
+                background: url('/resources/projects/grow-a-friend2.webp');
+                background-size: cover;
+        }
+
+        #furious-fowl-game {
+                background: url('/resources/projects/furious-fowl2.webp');
+                background-size: cover;
+        }
+
+        #pathos-proj {
+                background: url('/resources/projects/pathos2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pamelas {
+                background: url('/resources/projects/pamelas2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #uiux {
+                background: url('/resources/projects/uiux2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #faap {
+                background: url('/resources/projects/faap2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #opentable {
+                background: url('/resources/projects/opentable2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #collages {
+                background: url('/resources/projects/collages2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #manuscript {
+                background: url('/resources/projects/manuscript2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #cafe-23 {
+                background: url('/resources/projects/cafe-232.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #simmr {
+                background: url('/resources/projects/simmr2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert {
+                background: url('/resources/projects/concert2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+}
+
+/* Non-Mobile Devices */
+@media not all and (pointer: coarse) {
+        .img-desc {
+                display: none;
+        }
+
+        .img-inner {
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 0vh;
+                padding-bottom: 0vh;
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+        }
+
+        .ind:hover .img-desc {
+                display: flex;
+                padding-top: 12.5vh;
+                color: white;
+                height: 100%;
+                width: 100%;
+        }
+
+        #title-mobile{
+                display: none;
+
+        }
+
+        /* --------- background images on projects -------- */
+
+        #grow-a-friend-np {
+                background: url('/resources/projects/grow-a-friend.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #grow-a-friend-np:hover {
+                background: url('/resources/projects/grow-a-friend2.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #furious-fowl-game {
+                background: url('/resources/projects/furious-fowl.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #furious-fowl-game:hover {
+                background: url('/resources/projects/furious-fowl2.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #pathos-proj {
+                background: url('/resources/projects/pathos.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pathos-proj:hover {
+                background: url('/resources/projects/pathos2.webp');
+                background-size: cover;
+                background-position: right;
+        }
+
+        #pamelas {
+                background: url('/resources/projects/pamelas.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #pamelas:hover {
+                background: url('/resources/projects/pamelas2.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #uiux {
+                background: url('/resources/projects/uiux.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #uiux:hover {
+                background: url('/resources/projects/uiux2.webp');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #faap {
+                background: url('/resources/projects/faap.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #faap:hover {
+                background: url('/resources/projects/faap2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #opentable {
+                background: url('/resources/projects/opentable.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #opentable:hover {
+                background: url('/resources/projects/opentable2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #collages {
+                background: url('/resources/projects/collages.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #collages:hover {
+                background: url('/resources/projects/collages2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #manuscript {
+                background: url('/resources/projects/manuscript.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #manuscript:hover {
+                background: url('/resources/projects/manuscript2.jpg');
+                background-size: cover;
+                background-position: left;
+        }
+
+        #cafe-23 {
+                background: url('/resources/projects/cafe-23.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #cafe-23:hover {
+                background: url('/resources/projects/cafe-232.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #simmr {
+                background: url('/resources/projects/simmr.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #simmr:hover {
+                background: url('/resources/projects/simmr2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert {
+                background: url('/resources/projects/concert.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+
+        #concert:hover {
+                background: url('/resources/projects/concert2.jpg');
+                background-size: cover;
+                background-position: center;
+        }
+}
