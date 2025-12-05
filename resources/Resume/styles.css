@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400i,500,500i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,700,700i");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap");
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.page-break {
+  margin: 2em 0;
+  border: 1px dashed #aaa;
+  border-width: 1px 0;
+}
+.page-break:before {
+  content: "Page Break";
+  color: #aaa;
+  text-align: center;
+  display: block;
+}
+html {
+  font-size: 7.5px;
+}
+body {
+  color: #222;
+  font: normal 1.6rem/1.2 "Red Hat Text", "Inter", "Noto Sans SC";
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Sans", "Inter", "Noto Sans SC";
+  font-weight: bold;
+}
+h1 {
+  font-size: 3.6rem;
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  font-size: 2.4rem;
+  margin-top: 1em;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 0.5em;
+}
+h4,
+h5,
+h6 {
+  font-size: 1.8rem;
+  margin-top: 0.4em;
+}
+b,
+strong {
+  font-weight: bold;
+}
+i,
+em {
+  font-style: italic;
+}
+ul,
+ol {
+  margin-top: 0.5em;
+  list-style-type: none;
+}
+ul li:before,
+ol li:before {
+  content: "-";
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+h3 + ul {
+  margin-top: 0;
+}
+a {
+  color: #016ef1;
+  text-decoration: underline;
+}
+code,
+pre code {
+  background-color: rgba(1, 110, 241, 0.25);
+  font-family: inherit;
+}
+pre code {
+  display: block;
+}
+p {
+  margin-top: 0.5em;
+}
+p.pull-right {
+  float: right;
+  margin: -1.2em 4px 0 0;
+  text-align: right;
+}
+h3 + p {
+  margin-top: 0.2em;
+}
+li > p {
+  margin-top: 0;
+}
+table {
+  margin-top: 0.5em;
+  table-layout: fixed;
+  width: 100%;
+}
+table th,
+table tr {
+  font-weight: normal;
+}
+table.no-margin {
+  margin: 0 !important;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1em 0;
+}
+img {
+  border-radius: 4px;
+  float: left;
+  height: 10rem;
+  margin-right: 2rem;
+}
+::selection {
+  background-color: rgba(1, 110, 241, 0.2);
+}
+.row.row--section {
+  display: flex;
+}
+.row.row--section .column.column--1-1 {
+  flex: 100%;
+}
+.row.row--section .column.column--1-2 {
+  flex: 66%;
+  padding-right: 3rem;
+}
+.row.row--section .column.column--2-2 {
+  flex: 34%;
+  padding-left: 3rem;
+}
+h2 {
+  color: #016ef1;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 0.75em;
+}
+h1 b,
+h1 strong,
+h2 b,
+h2 strong,
+h3 b,
+h3 strong,
+h4 b,
+h4 strong,
+h5 b,
+h5 strong,
+h6 b,
+h6 strong {
+  font-weight: 700;
+}
+b,
+strong {
+  font-weight: 500;
+}
+ul {
+  padding-left: 16px;
+}
+ul li {
+  list-style-type: none;
+  position: relative;
+}
+ul li:before {
+  color: #016ef1;
+  content: "—";
+  font-weight: normal;
+  left: -16px;
+  position: absolute;
+}
+a {
+  border-bottom: 1px solid #016ef1;
+  color: #222;
+  text-decoration: none;
+}
+code,
+pre code {
+  background-color: rgba(1, 110, 241, 0.1);
+  border-radius: 2px;
+  color: #016ef1;
+  font-weight: 500;
+  padding: 0 4px;
+}
+pre code {
+  padding: 4px;
+}
