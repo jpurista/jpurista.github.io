@@ -22,7 +22,10 @@ jobs:
 
       - name: Convert resume.html → PDF
         run: |
-          wkhtmltopdf resources/Resume/resume.html resources/Resume/Juan_Pablo_Urista_Resume.pdf
+          wkhtmltopdf \
+            --enable-local-file-access \
+            file://$(pwd)/resources/Resume/resume.html \
+            resources/Resume/Juan_Pablo_Urista_Resume.pdf
 
       - name: Commit and push updated PDF
         run: |
