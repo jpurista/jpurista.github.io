@@ -3,7 +3,9 @@ name: Build Resume PDF
 on:
   push:
     paths:
-      - "resources/Resume/resume.html"   # run only when this file changes
+      - "resources/Resume/resume.html"
+      - "resources/Resume/styles.css"
+      - ".github/workflows/build-resume-pdf.yml"
 
 jobs:
   build:
