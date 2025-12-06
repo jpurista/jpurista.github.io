@@ -26,8 +26,16 @@ jobs:
         run: |
           wkhtmltopdf \
             --enable-local-file-access \
+            --page-size Letter \
+            --margin-top 10mm \
+            --margin-bottom 10mm \
+            --margin-left 10mm \
+            --margin-right 10mm \
+            --print-media-type \
+            --disable-smart-shrinking \
             file://$(pwd)/resources/Resume/resume.html \
             resources/Resume/Juan_Pablo_Urista_Resume.pdf
+
 
       - name: Commit and push updated PDF
         run: |
