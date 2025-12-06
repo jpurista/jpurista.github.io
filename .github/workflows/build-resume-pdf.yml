@@ -1,0 +1,42 @@
+name: Build Resume PDF
+
+on:
+  push:
+    paths:
+      - "resources/Resume/resume.html"   # run only when this file changes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wkhtmltopdf
+
+      - name: Convert resume.html → PDF
+        run: |
+          wkhtmltopdf resources/Resume/resume.html resources/Resume/Juan_Pablo_Urista_Resume.pdf
+
+      - name: Commit and push updated PDF
+        run: |
+          # Configure git identity for the action
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          # Stage the updated PDF
+          git add resources/Resume/Juan_Pablo_Urista_Resume.pdf
+
+          # Only commit if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update resume PDF"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
