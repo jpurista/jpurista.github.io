@@ -1,0 +1,10 @@
+{
+  "name": "jpurista-portfolio",
+  "private": true,
+  "scripts": {
+    "build:resume": "node scripts/build-resume-pdf.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
